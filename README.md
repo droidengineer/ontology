@@ -1,6 +1,9 @@
 # ontology
 A collection of ontologies and taxonomies for various specific areas of research or interest. Formats: OWL/XML, RDF/XML
 
+## game-pattern
+A basic, retroflexive ontology describing player agency and intentionality in game playing.
+
 ## trpg-pattern
 An ontology describing a pattern language for Tabletop Role-Playing Games.
 
