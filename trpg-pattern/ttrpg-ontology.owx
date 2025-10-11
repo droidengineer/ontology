@@ -1,0 +1,1127 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/droid/ontologies/2025/8/trpg-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/droid/ontologies/2025/8/trpg-ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/droid/ontologies/2025/8/trpg-ontology/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Represents the entities and their relationships that define a pattern-based, hierarchical taxonomy/ontology for Tabletop Role-Playing Games</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>0.2025.1</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#CharacterCreation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CharacterProgression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enumeration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Factor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FactorType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Introduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ItemSubtype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ItemType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mechanical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Move"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Playbook"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlayerRule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reroll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Revision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scalar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Step"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#trait"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Era"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/History"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Landmark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Mechanic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Mystery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Setting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Society"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/SpecialParameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Theme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/current"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/current_status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/effect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/initial_value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/outcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/range"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/significance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/subject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Setting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#factorType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEntity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEra"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFactor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFeature"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFunction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHistory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLandmark"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMove"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMystery"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRegion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSociety"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_step_for"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#numDice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#numSides"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#part_of"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numDice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numSides"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#attribute"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Equipment"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Item"/>
+            <ObjectMaxCardinality cardinality="1">
+                <ObjectProperty IRI="#hasType"/>
+                <Class IRI="#ItemType"/>
+            </ObjectMaxCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Roll"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#numDice"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Roll"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#numSides"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#CharacterCreation"/>
+        <Class IRI="#Playbook"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CharacterCreation"/>
+        <Class IRI="#PlayerRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CharacterProgression"/>
+        <Class IRI="#Playbook"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CharacterProgression"/>
+        <Class IRI="#PlayerRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condition"/>
+        <Class IRI="#CharacterProgression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condition"/>
+        <Class IRI="#PlayerRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enumeration"/>
+        <Class IRI="#FactorType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equipment"/>
+        <Class IRI="#PlayerRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Factor"/>
+        <Class IRI="/Mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FactorType"/>
+        <Class IRI="#Factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feature"/>
+        <Class IRI="#Playbook"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feature"/>
+        <Class IRI="/Mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flavor"/>
+        <Class IRI="#Introduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flavor"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralProcess"/>
+        <Class IRI="#PlayerRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Introduction"/>
+        <Class IRI="#Playbook"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Item"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ItemSubtype"/>
+        <Class IRI="#ItemType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ItemType"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mechanical"/>
+        <Class IRI="#Introduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mechanical"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meta"/>
+        <Class IRI="#FactorType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Move"/>
+        <Class IRI="/Mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Playbook"/>
+        <Class IRI="#PlayerRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlayerRule"/>
+        <Class IRI="/Mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reroll"/>
+        <Class IRI="#FactorType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resource"/>
+        <Class IRI="/Mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Revision"/>
+        <Class IRI="#FactorType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roll"/>
+        <Class IRI="/Mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scalar"/>
+        <Class IRI="#FactorType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social"/>
+        <Class IRI="#Introduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Step"/>
+        <Class IRI="#CharacterCreation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Step"/>
+        <Class IRI="#CharacterProgression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Step"/>
+        <Class IRI="#GeneralProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#trait"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#type"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Entity"/>
+        <Class IRI="/History"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Era"/>
+        <Class IRI="/History"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Event"/>
+        <Class IRI="/History"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Function"/>
+        <Class IRI="/Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/History"/>
+        <Class IRI="/Setting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Landmark"/>
+        <Class IRI="/Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mechanic"/>
+        <Class IRI="/System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mystery"/>
+        <Class IRI="/Setting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Region"/>
+        <Class IRI="/Setting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Setting"/>
+        <Class IRI="/System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Society"/>
+        <Class IRI="/Setting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SpecialParameter"/>
+        <Class IRI="/System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Theme"/>
+        <Class IRI="/System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/condition"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/current"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/current_status"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/description"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/effect"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/initial_value"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/name"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/outcome"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/range"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/result"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/role"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/significance"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/subject"/>
+        <Class IRI="/Property"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Meta"/>
+        <Class IRI="#Reroll"/>
+        <Class IRI="#Revision"/>
+        <Class IRI="#Scalar"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Resource"/>
+        <NamedIndividual IRI="#attribute"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#factorType"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDescription"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEntity"/>
+        <ObjectProperty IRI="#Setting"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEra"/>
+        <ObjectProperty IRI="#Setting"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEvent"/>
+        <ObjectProperty IRI="#Setting"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasHistory"/>
+        <ObjectProperty IRI="#Setting"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLandmark"/>
+        <ObjectProperty IRI="#Setting"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMove"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMystery"/>
+        <ObjectProperty IRI="#Setting"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasName"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRegion"/>
+        <ObjectProperty IRI="#Setting"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSociety"/>
+        <ObjectProperty IRI="#Setting"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_a"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_a"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_step_for"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#part_of"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasDescription"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasName"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_a"/>
+    </FunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#is_a"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#factorType"/>
+        <Class IRI="#Factor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDescription"/>
+        <Class IRI="/System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEntity"/>
+        <Class IRI="/History"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEra"/>
+        <Class IRI="/History"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEvent"/>
+        <Class IRI="/History"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFunction"/>
+        <Class IRI="/Theme"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHistory"/>
+        <Class IRI="/Setting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLandmark"/>
+        <Class IRI="/Region"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMystery"/>
+        <Class IRI="/Setting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasName"/>
+        <Class IRI="/System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRegion"/>
+        <Class IRI="/Setting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSociety"/>
+        <Class IRI="/Setting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#factorType"/>
+        <Class IRI="#FactorType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDescription"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEntity"/>
+        <Class IRI="/Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEra"/>
+        <Class IRI="/Era"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEvent"/>
+        <Class IRI="/Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFeature"/>
+        <Class IRI="#Feature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFunction"/>
+        <Class IRI="/Function"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHistory"/>
+        <Class IRI="/History"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLandmark"/>
+        <Class IRI="/Landmark"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMystery"/>
+        <Class IRI="/Mystery"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasName"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRegion"/>
+        <Class IRI="/Region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSociety"/>
+        <Class IRI="/Society"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#numDice"/>
+        <DataProperty IRI="#dice"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#numSides"/>
+        <DataProperty IRI="#dice"/>
+    </SubDataPropertyOf>
+    <DataPropertyRange>
+        <DataProperty IRI="#numSides"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#CharacterCreation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:03:24Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#CharacterProgression</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:03:16Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Condition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-29T21:50:31Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Condition</IRI>
+        <Literal>A general or playbook-specific condition that must be met in order to progress.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Enumeration</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T05:23:10Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Equipment</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:04:19Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Factor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:10:28Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Factor</IRI>
+        <Literal xml:lang="en">A factor is any metric that affects the move&apos;s action until it is resolved. It might be a stat that is relevant to the move, an operation (like making a choice or asking a question) that affects the move&apos;s outcome while it is being made, or any operation that plays a role in how the move itself is carried out.
+
+A factor can have one of four types: Scalar (has a positive or negative value that is directly combined with a roll), Reroll (calls for the repeat of a previous action or a re-rolling of the dice), Revision (gives an immediate response or ignores a different factor, move, or roll), or Meta (originates from story or gameplay rather than a rigid mechanic). Some factors can also originate as the result of certain moves; these factors should be marked as a Result to be tracked as such.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#FactorType</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T05:21:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Feature</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:10:47Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Flavor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:11:52Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#GeneralProcess</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:17:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Introduction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:11:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Item</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:05:00Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#ItemSubtype</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:04:53Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#ItemType</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:04:35Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Mechanical</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:11:45Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Meta</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T04:44:07Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Move</IRI>
+        <Literal>A move is any action that a player can take which is specified by the system. A move should have a name, an effect (a short summary of what it should be used for), a group of factors ordered by their sequential relevance in the move itself, and a detailed description of how the move is executed within the system&apos;s rules.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Playbook</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:03:40Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#PlayerRule</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:02:59Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Reroll</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T04:44:07Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Resource</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:10:24Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Resource</IRI>
+        <Literal>Any numerical value you want to track. Examples include attributes, hit points, money, XP, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Revision</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T04:44:07Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Roll</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T05:45:31Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Scalar</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T04:44:07Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Social</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:42:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Social</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:11:49Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#Step</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:17:41Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#attribute</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-24T20:25:49Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#dice</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T04:48:26Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#factorType</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T04:14:34Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#hasDescription</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-06T23:34:23Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#hasFeature</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T04:29:27Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#hasName</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-06T22:22:45Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#has_a</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:45:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#is_a</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:45:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#numDice</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T05:52:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#numSides</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T05:36:06Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#numSides</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T05:38:36Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#part_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:45:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#trait</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-23T21:19:01Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#type</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:42:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/Entity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:37:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/Era</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:37:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/Event</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:37:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/Function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:49:03Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/History</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:37:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/Landmark</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:37:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/Mechanic</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:36:15Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/Mystery</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:37:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/Property</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:38:54Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/Region</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:37:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/Setting</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:36:08Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/Society</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:37:37Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/SpecialParameter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:49:43Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/System</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:36:20Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/Theme</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:36:12Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/condition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:42:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/condition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T20:18:09Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/current</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:42:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/current_status</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:42:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/description</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:42:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/effect</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:42:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/initial_value</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:42:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/name</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:42:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/outcome</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:42:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/range</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:42:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/result</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:42:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/role</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:42:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/significance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:42:32Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>/subject</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:42:32Z</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

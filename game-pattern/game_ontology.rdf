@@ -1,0 +1,823 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/"
+     xml:base="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology:is_consumable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology:is_consumable"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#player_experience"/>
+        <rdfs:comment>An action is the goal oriented series of executed verbs that is necessary to activate reward. “Save the princess (in order to win the game)” is an example of an action.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#additive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#additive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#damage"/>
+        <rdfs:comment>When another character or effect within the story takes a hostile action against you, add the damage to your character sheet. If you take enough damage, something harmful happens.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#arbitrator_control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#arbitrator_control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#player_experience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#background -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#background">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/story_world"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#bleed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#bleed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#player_experience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#burnout -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#burnout">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#reward"/>
+        <rdfs:comment>When a reward repeated, it becomes less effective and the strength of the buzz curve is reduced. However, if the sequence of rewards is interrupted by other rewards, the reward recovers some of its former impact.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#campaign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#campaign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/scenario"/>
+        <rdfs:comment>A long-running series of scenario sessions.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#choice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#choice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#player_experience"/>
+        <rdfs:comment>Player freedom of choice.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#circumstances -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#circumstances">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#condition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#condition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#damage"/>
+        <rdfs:comment>When another character or effect within the story takes a hostile action against you, you gain a condition.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#constituative_rule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#constituative_rule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#rule"/>
+        <rdfs:comment>Abstract systemic patterns.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#crunch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#crunch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#rulebook"/>
+        <rdfs:comment>The level of mechanical detail required by the arbitrator or player.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#cumulative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#cumulative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#damage"/>
+        <rdfs:comment>When another character or effect within the story takes a hostile action against you, the risk level increases. Then, randomly determine whether you overcome the risk. On a failure, something harmful happens.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#damage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#damage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/mechanic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#deductive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#deductive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#damage"/>
+        <rdfs:comment>When another character or effect within the story takes a hostile action against you, the action deals one or more points of damage to you. Deduct this damage from your current hit points. If you run out of hit points, something harmful happens.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#descriptive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#descriptive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#damage"/>
+        <rdfs:comment>When another character or effect within the story takes a hostile action against you, the action succeeds and has its intended effect.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#dungeon_crawl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#dungeon_crawl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#mode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#electronic_rpg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#electronic_rpg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#rpg_format"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#environmental_narrative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#environmental_narrative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/story_world"/>
+        <rdfs:comment>Each major location or setting in a game might have its own narrative description.</rdfs:comment>
+        <rdfs:comment>Narrative descriptions of the game environment, creating a world story, a mystery, a mood, or anything else that attracts us to play in this world and makes us care. Environmental narrative encompasses everything that conveys what the world is.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#environmental_scenario -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#environmental_scenario">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/story_world"/>
+        <rdfs:comment>A few items laid out in the environment to tell a story. These descriptions convey the world story. The difference between environmental scenario and environmental narrative is just scope. A scenario is a single collection of assets and/or their descriptions intended to convey a single idea.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#equipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/player_rule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#expected -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#expected">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#reward"/>
+        <rdfs:comment>An expected reward is one that the player is told will happen.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#flow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#flow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#player_experience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#genre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#role-playing_game"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#goals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#goals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#hybrid_rpg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#hybrid_rpg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#rpg_format"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#implicit_rule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#implicit_rule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#rule"/>
+        <rdfs:comment>Tacit, assumed restrictions of etiquette.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#independent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#independent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#damage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#item -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#item">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#item_subtype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#item_subtype">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#item_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#item_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#item_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#live-action_rpg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#live-action_rpg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#rpg_format"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#lookup_tables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#lookup_tables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/game_rule"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T06:35:03Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#lore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#lore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/story_world"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#mechanical_structure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#mechanical_structure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#mode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#mode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#rulebook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#module -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#module">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/scenario"/>
+        <rdfs:comment>A published scenario or campaign.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#multiplicative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#multiplicative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#damage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#narrative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#narrative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#mode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#narrative_structure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#narrative_structure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/story_world"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/dice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#old_school_revival -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#old_school_revival">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#mode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#operational_rule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#operational_rule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#rule"/>
+        <rdfs:comment>Verbal description of the rules.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#player_creation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#player_creation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/player_rule"/>
+        <rdfs:comment>The rules and steps needed and used to create a new player entity.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#player_experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#player_experience"/>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#player_progression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#player_progression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/player_rule"/>
+        <rdfs:comment>The rules and steps needed and used to progress the player entity.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#plot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#plot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#narrative_structure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#readable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#readable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/story_world"/>
+        <rdfs:comment>An asset that exists to be read, usually when you interact with it.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#representation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#representation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/dice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#reward -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#reward">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#player_experience"/>
+        <rdfs:comment>An indicator that the player has done something meaningful in the context of the game. The general goal of a reward is to make the player feel good. The fireworks when you save the princess are a good example of a reward.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#risk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#player_experience"/>
+        <rdfs:comment>An indicator that the player is executing their actions in an unsuccessful manner. The general goal of a risk is to provide feedback that points a way forward. The simplest version of this feedback is “Don’t do that again.” The death animation when you die is a good example of a risk.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#role-playing_game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#role-playing_game"/>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#rpg_format -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#rpg_format">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#role-playing_game"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#rule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#rule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#mechanical_structure"/>
+        <rdfs:comment>The basic rules of interaction between tokens and verbs. The logic that an avatar jumping on an enemy kills it is an example of a rule.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#rulebook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#rulebook">
+        <rdfs:comment>The complete set of rules and mechanics supporting the genre and setting of the game.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#sides -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#sides">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/dice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#single-risk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#single-risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#damage"/>
+        <rdfs:comment>When another character or effect within the story takes a hostile action against you, randomly determine the result of the action.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#suppression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#suppression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#reward"/>
+        <rdfs:comment>When a player experiences too many rewards at once they suppress the lower strength buzz curves and only focus on the easily discernable rewards.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#tabletop_rpg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#tabletop_rpg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#rpg_format"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#token -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#token">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#mechanical_structure"/>
+        <rdfs:comment>Any object in the game that is manipulated. The player’s avatar or an enemy is an example of a token.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#unexpected -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#unexpected">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#reward"/>
+        <rdfs:comment>An unexpected reward is a reward that the player doesn’t know is coming.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#verb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#verb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#mechanical_structure"/>
+        <rdfs:comment>Any action the player can take in the gameplay, for example, &quot;walk,&quot; &quot;run,&quot; &quot;jump,&quot; or &quot;dodge.&quot;  Specific types of games will likely have specific verbs to support the gameplay. A &quot;shooter&quot; may have &quot;shoot,&quot; &quot;reload,&quot; or &quot;take cover.&quot;</rdfs:comment>
+        <rdfs:comment>Discreet actions that can be performed by tokens on other tokens. The act of jumping in a platform game is an example of a verb.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/Participant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/Participant"/>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/agency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/agency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#player_experience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/arbitrator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/arbitrator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/Participant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/cards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/cards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/randomness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/challenge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/challenge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#player_experience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/character -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/character">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/player"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/coin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/coin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/randomness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/converter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/converter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/internal_economy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/dice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/dice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/randomness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/digital -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/digital">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/randomness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/encounter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/encounter">
+        <rdfs:comment>What happens when the player character/entity runs into someone or something.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/game_rule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/game_rule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#rulebook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/gate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/gate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/internal_economy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/internal_economy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/internal_economy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/game_rule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/mechanic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/mechanic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/player_rule"/>
+        <rdfs:comment>Rules for determing conflict resolution or anytime a decision depends on chance.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/narrator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/narrator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/arbitrator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/npc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/npc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/arbitrator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/pc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/pc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/character"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/player -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/player">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/Participant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/player_rule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/player_rule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology#rulebook"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/randomness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/randomness"/>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/referee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/referee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/arbitrator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/resource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/resource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/internal_economy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/resource_pool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/resource_pool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/internal_economy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/scenario -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/scenario">
+        <rdfs:comment>AKA adventure, mission</rdfs:comment>
+        <rdfs:comment>The specific environment and goals a character (or player entity) engages with in the game.</rdfs:comment>
+        <rdfs:seeAlso>setting</rdfs:seeAlso>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/scenario"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>The specific environment and goals a character (or player entity) engages with in the game.</owl:annotatedTarget>
+        <rdfs:comment>Used to describe a set of circumstances, setting, and objectives for players, covering a single play session, one-off story, or structured sequence of interconnected events.</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/sink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/sink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/resource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/story_world -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/story_world"/>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/theme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/theme"/>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/resource#source -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/resource#source">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/game-ontology/resource"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

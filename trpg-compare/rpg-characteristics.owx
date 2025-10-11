@@ -1,0 +1,2392 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics">
+    <Prefix name="" IRI="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>A very basic taxonomy to allow comparison of RPG ruleset characteristics.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#AEG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adventurer_Conqueror_King_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basic_Role-Playing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Battletech"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Champions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cortex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cyberpunk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deadlands"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Demon_Lord_Engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Earthdawn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fate_Core_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forged_in_the_Dark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fudge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GUMSHOE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Green_Ronin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HERO_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HarnMaster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heavy_Gear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legend_of_the_Five_Rings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marvel_d616"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mastercraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modiphius_2d20"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mothership"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mutants_and_Masterminds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Old-School_Revival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#One-Role_Engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Palladium_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paranoia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pathfinder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RuneQuest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Savage_Worlds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shadowrun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Starfinder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storyteller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Top_Secret"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traveller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tri_Stat_Xd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trinity_Universe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#True20_Lite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ubiquity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unisystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warhammer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wizards_of_the_Coast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Year_Zero_Engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#abstract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#actual_play"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#arbitrator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#armor_class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ascending_armor_class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#attack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#average_value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#background"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#block"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#by_how_much"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#campaign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cartoon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#character_churn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#character_creation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#character_growth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#character_progression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#character_skill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#collaborator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#combat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concrete"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conflict_resolution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cooperative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#core_mechanic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#counter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cover"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#creator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#critical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#crunchy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#current_value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cyberpunk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#d10"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#d100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#d12"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#d2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#d20"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#d20_SRD_3.0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#d20_SRD_3.5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#d20_custom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#d4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#d6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#d66"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#d8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#damage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#defense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#detailed_creation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#detective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dice_roller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dice_use_number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dice_use_sides"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#die"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#distance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dodge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#draining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#education"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#entertainment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#era"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#espionage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#exploding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#facing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#failure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#family"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fantasy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fast_paced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#feat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#final_arbitrator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#formal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#formula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#freeform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#game_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gm_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#golden_rule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gurps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hackable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hidden_result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hidden_roll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#historical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#horror"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#immunity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#impromptu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#informal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#initial_value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#initiative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#intangible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#internal_economy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ladder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#landmark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#live_action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lookup_table"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#loose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#max_value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mechanic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#meta_game_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#military"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#min_value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#miniature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#modern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#modifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#movement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mutant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#narrator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#natural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#no_gm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#notation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#npc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#old_school"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#old_school_renaissance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#open_ended"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#open_gaming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#opposed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#optional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pattern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#philosophy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#player"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#player_character"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#player_growth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#player_skill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#playstyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#progression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#publisher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#qualitative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quick_creation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#race"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#random"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#range"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#resistance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#resource_pool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#retro_clone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roll_over"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roll_under"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#round"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rpg_format"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rule_density"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rules_bible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rules_lite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rules_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scalar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#science_fiction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#session"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#setting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sides"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#simplified"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#skill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#social"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#social_interaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#solitary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#specfic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#steampunk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#step_down"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#step_up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#storytelling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#success"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#super_hero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tabletop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tactical_sequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#talent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tangible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#target_value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#task_resolution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#technology_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#text-based"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#theatrical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#therapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#threshold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#trait"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#turn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#turn_order"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#value_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#video_game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#virtual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#western"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#young_adult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#13th_Age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2d10_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2d6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4C"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-6_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#7th_Sea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action!"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Darwin&apos;s_World"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dungeons_&amp;_Dragons_1e"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dungeons_&amp;_Dragons_3.5e"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dungeons_&amp;_Dragons_3e"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dungeons_&amp;_Dragons_4e"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dungeons_&amp;_Dragons_5e"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HARP/Rolemaster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Powers_&amp;_Perils"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Twilight:_2000"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#exploding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSetting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTheme"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_chaining"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_player"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#publishedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#publishes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sides"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesSystem"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#publish_date"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AEG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DCC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eldritch_Madness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Evil_Hat_Games"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Green_Ronin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HighFantasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LowFantasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pathfinder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ScienceFiction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TSR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tri_Stat_Xd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wizards_of_the_Coast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d20_Lite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d20_SRD_3.0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d20_SRD_3.5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Powers_&amp;_Perils"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Swords_&amp;_Wizardry"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Game"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#system"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSetting"/>
+                <Class IRI="#setting"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasTheme"/>
+                <Class IRI="#Theme"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#fantasy"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#HighFantasy"/>
+            <NamedIndividual IRI="#LowFantasy"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AEG"/>
+        <Class IRI="#publisher"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adventurer_Conqueror_King_System"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basic_Role-Playing"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Battletech"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Champions"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cortex"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cyberpunk"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deadlands"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Demon_Lord_Engine"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Earthdawn"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fate_Core_System"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forged_in_the_Dark"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fudge"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GUMSHOE"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Green_Ronin"/>
+        <Class IRI="#publisher"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HERO_System"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HarnMaster"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heavy_Gear"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legend_of_the_Five_Rings"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marvel_d616"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mastercraft"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modiphius_2d20"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mothership"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mutants_and_Masterminds"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Old-School_Revival"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#One-Role_Engine"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Palladium_System"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paranoia"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathfinder"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RuneQuest"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Savage_Worlds"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shadowrun"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Starfinder"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storyteller"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theme"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Top_Secret"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traveller"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tri_Stat_Xd"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trinity_Universe"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#True20_Lite"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ubiquity"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unisystem"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warhammer"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wizards_of_the_Coast"/>
+        <Class IRI="#publisher"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Year_Zero_Engine"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ability"/>
+        <Class IRI="#player_character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abstract"/>
+        <Class IRI="#resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#action"/>
+        <Class IRI="#tactical_sequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#actual_play"/>
+        <Class IRI="#rpg_format"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arbitrator"/>
+        <Class IRI="#gm_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#armor_class"/>
+        <Class IRI="#defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ascending_armor_class"/>
+        <Class IRI="#defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#attack"/>
+        <Class IRI="#combat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#attribute"/>
+        <Class IRI="#player_character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#average_value"/>
+        <Class IRI="#resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#background"/>
+        <Class IRI="#player_character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#block"/>
+        <Class IRI="#defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#by_how_much"/>
+        <Class IRI="#roll"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#campaign"/>
+        <Class IRI="#time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cards"/>
+        <Class IRI="#random"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cartoon"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#character_churn"/>
+        <Class IRI="#game_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#character_creation"/>
+        <Class IRI="#game_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#character_creation"/>
+        <Class IRI="#mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#character_growth"/>
+        <Class IRI="#game_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#character_progression"/>
+        <Class IRI="#mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#character_skill"/>
+        <Class IRI="#rules_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#class"/>
+        <Class IRI="#player_character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#collaborator"/>
+        <Class IRI="#gm_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#collaborator"/>
+        <Class IRI="#player"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#combat"/>
+        <Class IRI="#tactical_sequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#concrete"/>
+        <Class IRI="#resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#condition"/>
+        <Class IRI="#mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conflict_resolution"/>
+        <Class IRI="#core_mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cooperative"/>
+        <Class IRI="#gm_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cooperative"/>
+        <Class IRI="#player"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#core_mechanic"/>
+        <Class IRI="#mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#counter"/>
+        <Class IRI="#mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cover"/>
+        <Class IRI="#defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#creator"/>
+        <Class IRI="#gm_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#critical"/>
+        <Class IRI="#roll"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crunchy"/>
+        <Class IRI="#rule_density"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#current_value"/>
+        <Class IRI="#resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cyberpunk"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#d10"/>
+        <Class IRI="#notation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#d100"/>
+        <Class IRI="#notation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#d12"/>
+        <Class IRI="#notation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#d2"/>
+        <Class IRI="#notation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#d20"/>
+        <Class IRI="#notation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#d20_SRD_3.0"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#d20_SRD_3.5"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#d20_custom"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#d4"/>
+        <Class IRI="#notation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#d6"/>
+        <Class IRI="#notation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#d6"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#d66"/>
+        <Class IRI="#notation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#d8"/>
+        <Class IRI="#notation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#damage"/>
+        <Class IRI="#mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#defense"/>
+        <Class IRI="#combat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#detailed_creation"/>
+        <Class IRI="#character_creation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#detective"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dice"/>
+        <Class IRI="#random"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dice_roller"/>
+        <Class IRI="#gm_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dice_roller"/>
+        <Class IRI="#player"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dice_use_number"/>
+        <Class IRI="#core_mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dice_use_sides"/>
+        <Class IRI="#core_mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#die"/>
+        <Class IRI="#value_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#distance"/>
+        <Class IRI="#movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dodge"/>
+        <Class IRI="#defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#draining"/>
+        <Class IRI="#dice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#education"/>
+        <Class IRI="#meta_game_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#entertainment"/>
+        <Class IRI="#meta_game_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#entity"/>
+        <Class IRI="#lore"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#era"/>
+        <Class IRI="#lore"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#espionage"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evade"/>
+        <Class IRI="#defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#event"/>
+        <Class IRI="#lore"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exploding"/>
+        <Class IRI="#dice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#facing"/>
+        <Class IRI="#movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#failure"/>
+        <Class IRI="#roll"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#family"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fantasy"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fast_paced"/>
+        <Class IRI="#playstyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#feat"/>
+        <Class IRI="#player_character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#final_arbitrator"/>
+        <Class IRI="#arbitrator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#formal"/>
+        <Class IRI="#playstyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#formula"/>
+        <Class IRI="#core_mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#freeform"/>
+        <Class IRI="#rules_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#game_role"/>
+        <Class IRI="#philosophy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gm_role"/>
+        <Class IRI="#philosophy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#golden_rule"/>
+        <Class IRI="#rules_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gurps"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hackable"/>
+        <Class IRI="#rules_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hidden_result"/>
+        <Class IRI="#roll"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hidden_roll"/>
+        <Class IRI="#roll"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#historical"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#horror"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#immunity"/>
+        <Class IRI="#defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#impromptu"/>
+        <Class IRI="#playstyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#informal"/>
+        <Class IRI="#playstyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#initial_value"/>
+        <Class IRI="#resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#initiative"/>
+        <Class IRI="#combat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#intangible"/>
+        <Class IRI="#resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#internal_economy"/>
+        <Class IRI="#mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ladder"/>
+        <Class IRI="#core_mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#landmark"/>
+        <Class IRI="#region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#live_action"/>
+        <Class IRI="#rpg_format"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lookup_table"/>
+        <Class IRI="#core_mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#loose"/>
+        <Class IRI="#playstyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lore"/>
+        <Class IRI="#setting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#max_value"/>
+        <Class IRI="#resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#meta_game_role"/>
+        <Class IRI="#philosophy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#military"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#min_value"/>
+        <Class IRI="#resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#miniature"/>
+        <Class IRI="#mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#modern"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#modifier"/>
+        <Class IRI="#roll"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#movement"/>
+        <Class IRI="#tactical_sequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mutant"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#narrator"/>
+        <Class IRI="#gm_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#narrator"/>
+        <Class IRI="#player"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#natural"/>
+        <Class IRI="#dice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#no_gm"/>
+        <Class IRI="#gm_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#notation"/>
+        <Class IRI="#dice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#npc"/>
+        <Class IRI="#gm_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#number"/>
+        <Class IRI="#dice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#old_school"/>
+        <Class IRI="#meta_game_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#old_school_renaissance"/>
+        <Class IRI="#rules_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#open_ended"/>
+        <Class IRI="#roll"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#open_gaming"/>
+        <Class IRI="#rules_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#opposed"/>
+        <Class IRI="#roll"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#optional"/>
+        <Class IRI="#rule_density"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parry"/>
+        <Class IRI="#defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#physics"/>
+        <Class IRI="#mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#player"/>
+        <Class IRI="#philosophy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#player_growth"/>
+        <Class IRI="#game_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#player_skill"/>
+        <Class IRI="#rules_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#playstyle"/>
+        <Class IRI="#philosophy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pool"/>
+        <Class IRI="#dice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#position"/>
+        <Class IRI="#movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#progression"/>
+        <Class IRI="#mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#qualitative"/>
+        <Class IRI="#dice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quick_creation"/>
+        <Class IRI="#character_creation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#race"/>
+        <Class IRI="#player_character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#range"/>
+        <Class IRI="#resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reduction"/>
+        <Class IRI="#defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#region"/>
+        <Class IRI="#setting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#resistance"/>
+        <Class IRI="#defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#resource"/>
+        <Class IRI="#pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#resource_pool"/>
+        <Class IRI="#player_character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#retro_clone"/>
+        <Class IRI="#rules_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#role"/>
+        <Class IRI="#player_character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roll_over"/>
+        <Class IRI="#core_mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roll_over"/>
+        <Class IRI="#roll"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roll_under"/>
+        <Class IRI="#core_mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roll_under"/>
+        <Class IRI="#roll"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#round"/>
+        <Class IRI="#time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rules_bible"/>
+        <Class IRI="#rules_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rules_lite"/>
+        <Class IRI="#rule_density"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rules_role"/>
+        <Class IRI="#philosophy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scalar"/>
+        <Class IRI="#value_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#science_fiction"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#session"/>
+        <Class IRI="#time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#setting"/>
+        <Class IRI="#pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sides"/>
+        <Class IRI="#dice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#simplified"/>
+        <Class IRI="#rule_density"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#skill"/>
+        <Class IRI="#player_character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#social"/>
+        <Class IRI="#meta_game_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#social_interaction"/>
+        <Class IRI="#mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#solitary"/>
+        <Class IRI="#player"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#specfic"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sport"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stat"/>
+        <Class IRI="#player_character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#steampunk"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#step_down"/>
+        <Class IRI="#dice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#step_up"/>
+        <Class IRI="#dice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#storytelling"/>
+        <Class IRI="#meta_game_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#success"/>
+        <Class IRI="#roll"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#super_hero"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tabletop"/>
+        <Class IRI="#rpg_format"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tactical_sequence"/>
+        <Class IRI="#mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#talent"/>
+        <Class IRI="#player_character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tangible"/>
+        <Class IRI="#resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#target_value"/>
+        <Class IRI="#roll"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#task_resolution"/>
+        <Class IRI="#core_mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#technology_level"/>
+        <Class IRI="#player_character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#technology_level"/>
+        <Class IRI="#setting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#text-based"/>
+        <Class IRI="#rpg_format"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#theatrical"/>
+        <Class IRI="#playstyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#therapy"/>
+        <Class IRI="#meta_game_role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#threshold"/>
+        <Class IRI="#roll"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#time"/>
+        <Class IRI="#tactical_sequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#trait"/>
+        <Class IRI="#player_character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#turn"/>
+        <Class IRI="#time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#turn_order"/>
+        <Class IRI="#tactical_sequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#value_type"/>
+        <Class IRI="#resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#video_game"/>
+        <Class IRI="#rpg_format"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#virtual"/>
+        <Class IRI="#rpg_format"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#western"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#young_adult"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#13th_Age"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2d10_System"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2d6"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4C"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-6_System"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#7th_Sea"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action!"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Darwin&apos;s_World"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dungeons_&amp;_Dragons_1e"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dungeons_&amp;_Dragons_3.5e"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dungeons_&amp;_Dragons_3e"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dungeons_&amp;_Dragons_4e"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dungeons_&amp;_Dragons_5e"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HARP/Rolemaster"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Powers_&amp;_Perils"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Twilight:_2000"/>
+        <Class IRI="#system"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Adventurer_Conqueror_King_System"/>
+        <Class IRI="#Basic_Role-Playing"/>
+        <Class IRI="#Battletech"/>
+        <Class IRI="#Champions"/>
+        <Class IRI="#Cortex"/>
+        <Class IRI="#Cyberpunk"/>
+        <Class IRI="#Deadlands"/>
+        <Class IRI="#Demon_Lord_Engine"/>
+        <Class IRI="#Earthdawn"/>
+        <Class IRI="#Fate_Core_System"/>
+        <Class IRI="#Forged_in_the_Dark"/>
+        <Class IRI="#Fudge"/>
+        <Class IRI="#GUMSHOE"/>
+        <Class IRI="#HERO_System"/>
+        <Class IRI="#HarnMaster"/>
+        <Class IRI="#Heavy_Gear"/>
+        <Class IRI="#Legend_of_the_Five_Rings"/>
+        <Class IRI="#Marvel_d616"/>
+        <Class IRI="#Mastercraft"/>
+        <Class IRI="#Modiphius_2d20"/>
+        <Class IRI="#Mothership"/>
+        <Class IRI="#Mutants_and_Masterminds"/>
+        <Class IRI="#Old-School_Revival"/>
+        <Class IRI="#One-Role_Engine"/>
+        <Class IRI="#Palladium_System"/>
+        <Class IRI="#Paranoia"/>
+        <Class IRI="#Pathfinder"/>
+        <Class IRI="#RuneQuest"/>
+        <Class IRI="#Savage_Worlds"/>
+        <Class IRI="#Shadowrun"/>
+        <Class IRI="#Starfinder"/>
+        <Class IRI="#Storyteller"/>
+        <Class IRI="#Top_Secret"/>
+        <Class IRI="#Traveller"/>
+        <Class IRI="#Tri_Stat_Xd"/>
+        <Class IRI="#Trinity_Universe"/>
+        <Class IRI="#True20_Lite"/>
+        <Class IRI="#Ubiquity"/>
+        <Class IRI="#Unisystem"/>
+        <Class IRI="#Warhammer"/>
+        <Class IRI="#Year_Zero_Engine"/>
+        <Class IRI="#d20_SRD_3.0"/>
+        <Class IRI="#d20_SRD_3.5"/>
+        <Class IRI="#d20_custom"/>
+        <Class IRI="#d6"/>
+        <Class IRI="#gurps"/>
+        <Class IRI="#13th_Age"/>
+        <Class IRI="#2d10_System"/>
+        <Class IRI="#2d6"/>
+        <Class IRI="#4C"/>
+        <Class IRI="#6-6_System"/>
+        <Class IRI="#7th_Sea"/>
+        <Class IRI="#Action!"/>
+        <Class IRI="#Darwin&apos;s_World"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_1e"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_3.5e"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_3e"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_4e"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_5e"/>
+        <Class IRI="#HARP/Rolemaster"/>
+        <Class IRI="#Powers_&amp;_Perils"/>
+        <Class IRI="#Twilight:_2000"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Basic_Role-Playing"/>
+        <Class IRI="#Battletech"/>
+        <Class IRI="#Champions"/>
+        <Class IRI="#Cyberpunk"/>
+        <Class IRI="#Deadlands"/>
+        <Class IRI="#Demon_Lord_Engine"/>
+        <Class IRI="#Earthdawn"/>
+        <Class IRI="#Fate_Core_System"/>
+        <Class IRI="#Forged_in_the_Dark"/>
+        <Class IRI="#Fudge"/>
+        <Class IRI="#HERO_System"/>
+        <Class IRI="#Heavy_Gear"/>
+        <Class IRI="#Legend_of_the_Five_Rings"/>
+        <Class IRI="#Marvel_d616"/>
+        <Class IRI="#Modiphius_2d20"/>
+        <Class IRI="#Mothership"/>
+        <Class IRI="#Mutants_and_Masterminds"/>
+        <Class IRI="#Old-School_Revival"/>
+        <Class IRI="#Paranoia"/>
+        <Class IRI="#Pathfinder"/>
+        <Class IRI="#RuneQuest"/>
+        <Class IRI="#Savage_Worlds"/>
+        <Class IRI="#Shadowrun"/>
+        <Class IRI="#Starfinder"/>
+        <Class IRI="#Storyteller"/>
+        <Class IRI="#Top_Secret"/>
+        <Class IRI="#Traveller"/>
+        <Class IRI="#Tri_Stat_Xd"/>
+        <Class IRI="#Trinity_Universe"/>
+        <Class IRI="#True20_Lite"/>
+        <Class IRI="#Unisystem"/>
+        <Class IRI="#Warhammer"/>
+        <Class IRI="#Year_Zero_Engine"/>
+        <Class IRI="#d20_SRD_3.0"/>
+        <Class IRI="#d20_SRD_3.5"/>
+        <Class IRI="#d20_custom"/>
+        <Class IRI="#d6"/>
+        <Class IRI="#gurps"/>
+        <Class IRI="#7th_Sea"/>
+        <Class IRI="#Action!"/>
+        <Class IRI="#Darwin&apos;s_World"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_1e"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_3.5e"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_3e"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_4e"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_5e"/>
+        <Class IRI="#HARP/Rolemaster"/>
+        <Class IRI="#Powers_&amp;_Perils"/>
+        <Class IRI="#Twilight:_2000"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Basic_Role-Playing"/>
+        <Class IRI="#Cyberpunk"/>
+        <Class IRI="#Demon_Lord_Engine"/>
+        <Class IRI="#Fate_Core_System"/>
+        <Class IRI="#Forged_in_the_Dark"/>
+        <Class IRI="#Fudge"/>
+        <Class IRI="#Marvel_d616"/>
+        <Class IRI="#Modiphius_2d20"/>
+        <Class IRI="#Mothership"/>
+        <Class IRI="#Old-School_Revival"/>
+        <Class IRI="#Pathfinder"/>
+        <Class IRI="#Savage_Worlds"/>
+        <Class IRI="#Starfinder"/>
+        <Class IRI="#Storyteller"/>
+        <Class IRI="#Top_Secret"/>
+        <Class IRI="#Traveller"/>
+        <Class IRI="#Tri_Stat_Xd"/>
+        <Class IRI="#True20_Lite"/>
+        <Class IRI="#Warhammer"/>
+        <Class IRI="#Year_Zero_Engine"/>
+        <Class IRI="#d20_SRD_3.0"/>
+        <Class IRI="#d20_SRD_3.5"/>
+        <Class IRI="#d20_custom"/>
+        <Class IRI="#d6"/>
+        <Class IRI="#gurps"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_1e"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_3.5e"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_3e"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_4e"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_5e"/>
+        <Class IRI="#Powers_&amp;_Perils"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Top_Secret"/>
+        <Class IRI="#Tri_Stat_Xd"/>
+        <Class IRI="#True20_Lite"/>
+        <Class IRI="#d20_SRD_3.0"/>
+        <Class IRI="#d20_SRD_3.5"/>
+        <Class IRI="#d6"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_1e"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_3.5e"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_3e"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_4e"/>
+        <Class IRI="#Dungeons_&amp;_Dragons_5e"/>
+        <Class IRI="#Powers_&amp;_Perils"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#actual_play"/>
+        <Class IRI="#live_action"/>
+        <Class IRI="#tabletop"/>
+        <Class IRI="#text-based"/>
+        <Class IRI="#video_game"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#d10"/>
+        <Class IRI="#d100"/>
+        <Class IRI="#d12"/>
+        <Class IRI="#d2"/>
+        <Class IRI="#d20"/>
+        <Class IRI="#d4"/>
+        <Class IRI="#d6"/>
+        <Class IRI="#d8"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#publisher"/>
+        <NamedIndividual IRI="#AEG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#horror"/>
+        <NamedIndividual IRI="#Eldritch_Madness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#publisher"/>
+        <NamedIndividual IRI="#Green_Ronin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#fantasy"/>
+        <NamedIndividual IRI="#HighFantasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#fantasy"/>
+        <NamedIndividual IRI="#LowFantasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#science_fiction"/>
+        <NamedIndividual IRI="#ScienceFiction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#publisher"/>
+        <NamedIndividual IRI="#TSR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Swords_&amp;_Wizardry"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publishedBy"/>
+        <NamedIndividual IRI="#Swords_&amp;_Wizardry"/>
+        <NamedIndividual IRI="#Green_Ronin"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#dice"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#exploding"/>
+        <ObjectProperty IRI="#dice"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_chaining"/>
+        <ObjectProperty IRI="#dice"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#sides"/>
+        <ObjectProperty IRI="#dice"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#publishedBy"/>
+        <ObjectProperty IRI="#publishes"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSetting"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#usesSystem"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSetting"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usesSystem"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSetting"/>
+        <Class IRI="#setting"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usesSystem"/>
+        <Class IRI="#system"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#publish_date"/>
+        <Class IRI="#Game"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#publish_date"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#abstract</IRI>
+        <Literal>Abstract resources do not really exist in the game but are computed from the current state of the game.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#arbitrator</IRI>
+        <Literal>Rules interpreter.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#attribute</IRI>
+        <Literal>An attribute is a piece of data that describes to what extent a fictional character in a role-playing game possesses a specific natural, in-born characteristic common to all characters in the game.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#by_how_much</IRI>
+        <Literal>When success or failure can be divided into varying degrees or levels.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#character_churn</IRI>
+        <Literal>Characters are meant to be disposable.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#character_creation</IRI>
+        <Literal>Character creation is the process of defining a player character in a role-playing game.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#character_skill</IRI>
+        <Literal>Character success is determined by character skills, abilities, and knowledge.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#collaborator</IRI>
+        <Literal>The GM works with the players to come to an answer, find a solution, or otherwise resolve conflicts and disputes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#concrete</IRI>
+        <Literal>some resources might appear to be abstract are in fact quite concrete. For example, experience points are not an abstract resource in a role-playing game. Instead, they are an intangible, but real, commodity that must be earned and (sometimes) spent like money. Happiness and reputation are two more resources used by many games that, although they are intangible, are nevertheless concrete parts of the game.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#creator</IRI>
+        <Literal>The GM&apos;s role is to create the game and anything needed to run it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#dice_use_number</IRI>
+        <Literal>Determining how many dice to use.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#dice_use_sides</IRI>
+        <Literal>Determining the polyhedricity? (number of sides) of the die/dice to use.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#entertainment</IRI>
+        <Literal>fun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#final_arbitrator</IRI>
+        <Literal>The GM&apos;s word is final. They have the final say.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#game_role</IRI>
+        <Literal>What is the role of this game? What should this game be for the players?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#golden_rule</IRI>
+        <Literal>Rules are only guidelines. Nothing is written in stone.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#intangible</IRI>
+        <Literal>Intangible resources have no physical properties in the game world—they do not occupy space or exist in a particular location. For example, once the trees in Warcraft have been harvested, they are changed into lumber, which is intangible. Lumber is just a number—it doesn’t exist in a location.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ladder</IRI>
+        <Literal>A range of values like a Difficulty Class etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#meta_game_role</IRI>
+        <Literal>What is the role of a game?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#min_value</IRI>
+        <Literal>The lowest value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#player</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-20T18:00:04Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#player_skill</IRI>
+        <Literal>Character success is determined by player skill, abilities, and knowledge.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#race</IRI>
+        <Literal>The term &apos;race&apos; is used here because that is used in the RPGs under study. However, it should be understood to mean &quot;species.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#race</IRI>
+        <Literal>species</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#resource</IRI>
+        <Literal>Almost anything in a game can function as a Resource: money, energy, time, mana, XP, or units under player control, as are items, power ups, and enemy units opposing the units of the player. Anything the player can produce, gather, collect, or destroy is probably a resource of some sort, but not all resources are under the player&apos;s control.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#resource_pool</IRI>
+        <Literal>A collection of resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#retro_clone</IRI>
+        <Literal>Aspires to provide a legal, hassle-free way to play and develop content for games based on old rulesets whose license or copyright forbids using it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#rules_role</IRI>
+        <Literal>What role does this game&apos;s rules play?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>#simplified</IRI>
+        <Literal>droid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+        <IRI>#simplified</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-20T17:58:57Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#stat</IRI>
+        <Literal>A statistic in role-playing games is a piece of data that represents a particular aspect of a fictional character. That piece of data is usually a (unitless) integer or, in some cases, a set of dice.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#stat</IRI>
+        <Literal>trait
+skill</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#system</IRI>
+        <Literal>The ruleset; the collection of terms, rules, and data used to play a game in this system. It may or may not be a game in itself; it could just be a ruleset without any theme or setting.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tactical_sequence</IRI>
+        <Literal>Tactical sequences are a collection of actions or action sequences that are broken into small, discrete units of time. They are used to take actions or events that happen very quickly and breaking it down into smaller pieces of time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tangible</IRI>
+        <Literal>Tangible resources have physical properties in the game world. They exist in a particular location and often have to be moved somewhere else.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The numeric value that sets the failure/success boundry for a roll.</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#target_value</IRI>
+        <Literal>The target value to the roll aspires to defeat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#task_resolution</IRI>
+        <Literal>A standardized mechanism for determining the success or failure (or varying levels thereof) of any given task.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

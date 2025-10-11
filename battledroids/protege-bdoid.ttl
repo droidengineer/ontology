@@ -1,0 +1,307 @@
+@prefix : <http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/> .
+
+<http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2> rdf:type owl:Ontology .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/AA
+:AA rdf:type owl:Class ;
+    rdfs:subClassOf :Size .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/AAA
+:AAA rdf:type owl:Class ;
+     rdfs:subClassOf :Size .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/AC
+:AC rdf:type owl:Class ;
+    rdfs:subClassOf :Power_Type ;
+    owl:disjointWith :DC .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Amperage
+:Amperage rdf:type owl:Class ;
+          rdfs:subClassOf :Power .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Backup
+:Backup rdf:type owl:Class ;
+        rdfs:subClassOf :Power .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Battery
+:Battery rdf:type owl:Class ;
+         rdfs:subClassOf :Power_Source .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/BattleDroid
+:BattleDroid rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Capacitor
+:Capacitor rdf:type owl:Class ;
+           rdfs:subClassOf :Power_Source .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Chassis
+:Chassis rdf:type owl:Class ;
+         rdfs:subClassOf :Droid ;
+         rdfs:comment "This is the body of the 'droid that houses the cockpit and connects all peripheral devices and components." .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Chemistry
+:Chemistry rdf:type owl:Class ;
+           rdfs:subClassOf :Battery .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Coin
+:Coin rdf:type owl:Class ;
+      rdfs:subClassOf :Size .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Combustion
+:Combustion rdf:type owl:Class ;
+            rdfs:subClassOf :Power_Source .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/DC
+:DC rdf:type owl:Class ;
+    rdfs:subClassOf :Power_Type .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Droid
+:Droid rdf:type owl:Class ;
+       rdfs:subClassOf :BattleDroid .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Electronics
+:Electronics rdf:type owl:Class ;
+             rdfs:subClassOf :Droid .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Energy_Harvester
+:Energy_Harvester rdf:type owl:Class ;
+                  rdfs:subClassOf :Power_Source .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Frequency
+:Frequency rdf:type owl:Class ;
+           rdfs:subClassOf :Power_Source ,
+                           :Voltage .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Fuel_Cell
+:Fuel_Cell rdf:type owl:Class ;
+           rdfs:subClassOf :Power_Source .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Generator
+:Generator rdf:type owl:Class ;
+           rdfs:subClassOf :Transducer ;
+           owl:disjointWith :Photovoltaic .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/LeadAcid
+:LeadAcid rdf:type owl:Class ;
+          rdfs:subClassOf :Chemistry .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Li
+:Li rdf:type owl:Class ;
+    rdfs:subClassOf :Chemistry .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/LiPo
+:LiPo rdf:type owl:Class ;
+      rdfs:subClassOf :Chemistry .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Locomotion
+:Locomotion rdf:type owl:Class ;
+            rdfs:subClassOf :Droid .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Motor
+:Motor rdf:type owl:Class ;
+       rdfs:subClassOf :Droid .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Name
+:Name rdf:type owl:Class ;
+      rdfs:subClassOf :Chassis ,
+                      :Properties .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/NiCad
+:NiCad rdf:type owl:Class ;
+       rdfs:subClassOf :Chemistry .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Nominal
+:Nominal rdf:type owl:Class ;
+         rdfs:subClassOf :Amperage ,
+                         :Voltage ;
+         owl:disjointWith :Peak .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Password
+:Password rdf:type owl:Class ;
+          rdfs:subClassOf :Properties .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Peak
+:Peak rdf:type owl:Class ;
+      rdfs:subClassOf :Amperage ,
+                      :Voltage .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Photovoltaic
+:Photovoltaic rdf:type owl:Class ;
+              rdfs:subClassOf :Transducer .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Pilot
+:Pilot rdf:type owl:Class ;
+       rdfs:subClassOf :Properties .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Power
+:Power rdf:type owl:Class ;
+       rdfs:subClassOf :Droid .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Power_Distribution
+:Power_Distribution rdf:type owl:Class ;
+                    rdfs:subClassOf :Power .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Power_Source
+:Power_Source rdf:type owl:Class ;
+              rdfs:subClassOf :Power .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Power_Storage
+:Power_Storage rdf:type owl:Class ;
+               rdfs:subClassOf :Power .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Power_Type
+:Power_Type rdf:type owl:Class ;
+            rdfs:subClassOf :Power .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Properties
+:Properties rdf:type owl:Class ;
+            rdfs:subClassOf :Droid .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Size
+:Size rdf:type owl:Class ;
+      rdfs:subClassOf :Battery ,
+                      :Chassis .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Specification
+:Specification rdf:type owl:Class ;
+               rdfs:subClassOf :BattleDroid .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Tether
+:Tether rdf:type owl:Class ;
+        rdfs:subClassOf :Power_Source .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Transducer
+:Transducer rdf:type owl:Class ;
+            rdfs:subClassOf :Power_Source .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Voltage
+:Voltage rdf:type owl:Class ;
+         rdfs:subClassOf :Power .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Weapons
+:Weapons rdf:type owl:Class ;
+         rdfs:subClassOf :Droid .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Weight
+:Weight rdf:type owl:Class ;
+        rdfs:subClassOf :Chassis .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/component
+:component rdf:type owl:Class ;
+           rdfs:subClassOf :Specification .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/2032
+<http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/2032> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf :Coin ;
+                                                                              owl:disjointWith <http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/4011> .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/4011
+<http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/4011> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf :Coin .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/80165
+<http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/80165> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf :Size .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :AA
+                :AAA
+                :Coin
+                <http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/80165>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Battery
+                :Capacitor
+                :Combustion
+                :Energy_Harvester
+                :Frequency
+                :Fuel_Cell
+                :Tether
+                :Transducer
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Frequency
+                :Nominal
+                :Peak
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :LeadAcid
+                :Li
+                :LiPo
+                :NiCad
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
