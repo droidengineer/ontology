@@ -1,275 +1,549 @@
-@prefix : <http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/> .
+@prefix : <http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/> .
+@base <http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/> .
 
-<http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2> rdf:type owl:Ontology .
+<http://www.semanticweb.org/droid/ontologies/2025/8/battledroids> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Component
+:Component rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Droid
+:Droid rdf:type owl:ObjectProperty ;
+       <http://purl.org/dc/elements/1.1/date> "2025-10-11T07:29:23Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#hasChassis
+:hasChassis rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :Droid ;
+            rdfs:domain :Droid ;
+            rdfs:range :Chassis ;
+            <http://purl.org/dc/elements/1.1/date> "2025-10-11T07:28:33Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#hasComponent
+:hasComponent rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :Component ;
+              rdfs:domain :Droid ;
+              rdfs:range :Component ;
+              <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:36:16Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#hasLocomotion
+:hasLocomotion rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :Droid ;
+               rdfs:domain :Droid ;
+               rdfs:range :Locomotion ;
+               <http://purl.org/dc/elements/1.1/date> "2025-10-11T07:28:13Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#hasName
+:hasName rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf :Component ;
+         rdfs:range [ rdf:type owl:Restriction ;
+                      owl:onProperty :withName ;
+                      owl:someValuesFrom xsd:string
+                    ] ;
+         <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:34:20Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#hasWeight
+:hasWeight rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf :Component ;
+           <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:34:25Z"^^xsd:dateTime .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Component
+:Component rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#withDescription
+:withDescription rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf :Component ;
+                 rdfs:range xsd:string ;
+                 <http://purl.org/dc/elements/1.1/date> "2025-10-11T07:04:42Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#withName
+:withName rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf :Component ;
+          rdfs:range xsd:string ;
+          <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:35:46Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#withWeight
+:withWeight rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf :Component ;
+            rdfs:range xsd:double ,
+                       xsd:integer ;
+            <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:35:39Z"^^xsd:dateTime .
+
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/AA
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Brushed
+:Brushed rdf:type owl:Class ;
+         rdfs:subClassOf :Motor ;
+         <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:23:52Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Brushless
+:Brushless rdf:type owl:Class ;
+           rdfs:subClassOf :Motor ;
+           <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:23:57Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Computer
+:Computer rdf:type owl:Class ;
+          rdfs:subClassOf :Electronics ;
+          <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:29:17Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#ElectronicCounterMeasure
+:ElectronicCounterMeasure rdf:type owl:Class ;
+                          rdfs:subClassOf :Electronics ;
+                          <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:29:03Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#GearBox
+:GearBox rdf:type owl:Class ;
+         rdfs:subClassOf :Motor ;
+         <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:23:19Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Infrared
+:Infrared rdf:type owl:Class ;
+          rdfs:subClassOf :Modality ;
+          <http://purl.org/dc/elements/1.1/date> "2025-10-11T07:02:26Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Infrasonic
+:Infrasonic rdf:type owl:Class ;
+            rdfs:subClassOf :Modality ;
+            <http://purl.org/dc/elements/1.1/date> "2025-10-11T07:02:26Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Laser
+:Laser rdf:type owl:Class ;
+       rdfs:subClassOf :Modality ;
+       <http://purl.org/dc/elements/1.1/date> "2025-10-11T07:02:26Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Limbs
+:Limbs rdf:type owl:Class ;
+       rdfs:subClassOf :Locomotion ;
+       <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:24:25Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Microwave
+:Microwave rdf:type owl:Class ;
+           rdfs:subClassOf :Modality ;
+           <http://purl.org/dc/elements/1.1/date> "2025-10-11T07:02:26Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Modality
+:Modality rdf:type owl:Class ;
+          rdfs:subClassOf :Sensor ;
+          <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:50:04Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Nano
+:Nano rdf:type owl:Class ;
+      rdfs:subClassOf :Chassis ;
+      <http://purl.org/dc/elements/1.1/date> "2025-10-11T07:40:22Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Navigation
+:Navigation rdf:type owl:Class ;
+            rdfs:subClassOf :Computer ;
+            <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:30:00Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Optical
+:Optical rdf:type owl:Class ;
+         rdfs:subClassOf :Modality ;
+         <http://purl.org/dc/elements/1.1/date> "2025-10-11T07:02:26Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Rotor
+:Rotor rdf:type owl:Class ;
+       rdfs:subClassOf :Locomotion ;
+       <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:24:58Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Sensor
+:Sensor rdf:type owl:Class ;
+        rdfs:subClassOf :Electronics ;
+        <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:29:12Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Servo
+:Servo rdf:type owl:Class ;
+       rdfs:subClassOf :Motor ;
+       <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:47:00Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Sonic
+:Sonic rdf:type owl:Class ;
+       rdfs:subClassOf :Modality ;
+       <http://purl.org/dc/elements/1.1/date> "2025-10-11T07:02:26Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Stepper
+:Stepper rdf:type owl:Class ;
+         rdfs:subClassOf :Motor ;
+         <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:46:56Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Targeting
+:Targeting rdf:type owl:Class ;
+           rdfs:subClassOf :Computer ;
+           <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:30:40Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Tracks
+:Tracks rdf:type owl:Class ;
+        rdfs:subClassOf :Locomotion ;
+        <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:24:09Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Ultrasonic
+:Ultrasonic rdf:type owl:Class ;
+            rdfs:subClassOf :Modality ;
+            <http://purl.org/dc/elements/1.1/date> "2025-10-11T07:02:26Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Ultraviolet
+:Ultraviolet rdf:type owl:Class ;
+             rdfs:subClassOf :Modality ;
+             <http://purl.org/dc/elements/1.1/date> "2025-10-11T07:02:26Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Wheels
+:Wheels rdf:type owl:Class ;
+        rdfs:subClassOf :Locomotion ;
+        <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:24:33Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Wireless
+:Wireless rdf:type owl:Class ;
+          rdfs:subClassOf :Modality ;
+          <http://purl.org/dc/elements/1.1/date> "2025-10-11T07:02:26Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/AA
 :AA rdf:type owl:Class ;
-    rdfs:subClassOf :Size .
+    rdfs:subClassOf :BatterySize .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/AAA
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/AAA
 :AAA rdf:type owl:Class ;
-     rdfs:subClassOf :Size .
+     rdfs:subClassOf :BatterySize .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/AC
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/AC
 :AC rdf:type owl:Class ;
     rdfs:subClassOf :Power_Type ;
     owl:disjointWith :DC .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Amperage
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Amperage
 :Amperage rdf:type owl:Class ;
           rdfs:subClassOf :Power .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Backup
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Backup
 :Backup rdf:type owl:Class ;
         rdfs:subClassOf :Power .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Battery
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Battery
 :Battery rdf:type owl:Class ;
          rdfs:subClassOf :Power_Source .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/BattleDroid
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/BatterySize
+:BatterySize rdf:type owl:Class ;
+             rdfs:subClassOf :Battery .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/BattleDroid
 :BattleDroid rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Capacitor
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Capacitor
 :Capacitor rdf:type owl:Class ;
            rdfs:subClassOf :Power_Source .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Chassis
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Chassis
 :Chassis rdf:type owl:Class ;
-         rdfs:subClassOf :Droid ;
+         rdfs:subClassOf :Specification ;
          rdfs:comment "This is the body of the 'droid that houses the cockpit and connects all peripheral devices and components." .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Chemistry
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Chemistry
 :Chemistry rdf:type owl:Class ;
            rdfs:subClassOf :Battery .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Coin
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Coin
 :Coin rdf:type owl:Class ;
-      rdfs:subClassOf :Size .
+      rdfs:subClassOf :BatterySize .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Combustion
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Combustion
 :Combustion rdf:type owl:Class ;
             rdfs:subClassOf :Power_Source .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/DC
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Component
+:Component rdf:type owl:Class ;
+           rdfs:subClassOf :Droid .
+
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/DC
 :DC rdf:type owl:Class ;
     rdfs:subClassOf :Power_Type .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Droid
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Droid
 :Droid rdf:type owl:Class ;
        rdfs:subClassOf :BattleDroid .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Electronics
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Electronics
 :Electronics rdf:type owl:Class ;
-             rdfs:subClassOf :Droid .
+             rdfs:subClassOf :Specification .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Energy_Harvester
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Energy_Harvester
 :Energy_Harvester rdf:type owl:Class ;
                   rdfs:subClassOf :Power_Source .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Frequency
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Frequency
 :Frequency rdf:type owl:Class ;
            rdfs:subClassOf :Power_Source ,
                            :Voltage .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Fuel_Cell
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Fuel_Cell
 :Fuel_Cell rdf:type owl:Class ;
            rdfs:subClassOf :Power_Source .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Generator
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Generator
 :Generator rdf:type owl:Class ;
            rdfs:subClassOf :Transducer ;
            owl:disjointWith :Photovoltaic .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/LeadAcid
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/LeadAcid
 :LeadAcid rdf:type owl:Class ;
           rdfs:subClassOf :Chemistry .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Li
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Li
 :Li rdf:type owl:Class ;
     rdfs:subClassOf :Chemistry .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/LiPo
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/LiPo
 :LiPo rdf:type owl:Class ;
       rdfs:subClassOf :Chemistry .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Locomotion
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Locomotion
 :Locomotion rdf:type owl:Class ;
-            rdfs:subClassOf :Droid .
+            rdfs:subClassOf :Specification .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Motor
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Motor
 :Motor rdf:type owl:Class ;
-       rdfs:subClassOf :Droid .
+       rdfs:subClassOf :Specification .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Name
-:Name rdf:type owl:Class ;
-      rdfs:subClassOf :Chassis ,
-                      :Properties .
-
-
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/NiCad
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/NiCad
 :NiCad rdf:type owl:Class ;
        rdfs:subClassOf :Chemistry .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Nominal
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Nominal
 :Nominal rdf:type owl:Class ;
          rdfs:subClassOf :Amperage ,
                          :Voltage ;
          owl:disjointWith :Peak .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Password
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Password
 :Password rdf:type owl:Class ;
           rdfs:subClassOf :Properties .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Peak
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Peak
 :Peak rdf:type owl:Class ;
       rdfs:subClassOf :Amperage ,
                       :Voltage .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Photovoltaic
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Photovoltaic
 :Photovoltaic rdf:type owl:Class ;
               rdfs:subClassOf :Transducer .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Pilot
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Pilot
 :Pilot rdf:type owl:Class ;
        rdfs:subClassOf :Properties .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Power
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Power
 :Power rdf:type owl:Class ;
-       rdfs:subClassOf :Droid .
+       rdfs:subClassOf :Specification .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Power_Distribution
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Power_Distribution
 :Power_Distribution rdf:type owl:Class ;
                     rdfs:subClassOf :Power .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Power_Source
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Power_Source
 :Power_Source rdf:type owl:Class ;
               rdfs:subClassOf :Power .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Power_Storage
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Power_Storage
 :Power_Storage rdf:type owl:Class ;
                rdfs:subClassOf :Power .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Power_Type
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Power_Type
 :Power_Type rdf:type owl:Class ;
             rdfs:subClassOf :Power .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Properties
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Properties
 :Properties rdf:type owl:Class ;
-            rdfs:subClassOf :Droid .
+            rdfs:subClassOf :Specification .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Size
-:Size rdf:type owl:Class ;
-      rdfs:subClassOf :Battery ,
-                      :Chassis .
-
-
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Specification
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Specification
 :Specification rdf:type owl:Class ;
                rdfs:subClassOf :BattleDroid .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Tether
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Tether
 :Tether rdf:type owl:Class ;
         rdfs:subClassOf :Power_Source .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Transducer
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Transducer
 :Transducer rdf:type owl:Class ;
             rdfs:subClassOf :Power_Source .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Voltage
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/Voltage
 :Voltage rdf:type owl:Class ;
          rdfs:subClassOf :Power .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Weapons
-:Weapons rdf:type owl:Class ;
-         rdfs:subClassOf :Droid .
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/WeaponSystem
+:WeaponSystem rdf:type owl:Class ;
+              rdfs:subClassOf :Specification .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/Weight
-:Weight rdf:type owl:Class ;
-        rdfs:subClassOf :Chassis .
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/2032
+<http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/2032> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf :Coin ;
+                                                                       owl:disjointWith <http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/4011> .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/component
-:component rdf:type owl:Class ;
-           rdfs:subClassOf :Specification .
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/4011
+<http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/4011> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf :Coin .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/2032
-<http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/2032> rdf:type owl:Class ;
-                                                                              rdfs:subClassOf :Coin ;
-                                                                              owl:disjointWith <http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/4011> .
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/80165
+<http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/80165> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf :BatterySize .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/4011
-<http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/4011> rdf:type owl:Class ;
-                                                                              rdfs:subClassOf :Coin .
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Chassis/Nano
+<http://www.semanticweb.org/droid/ontologies/2025/8/battledroids#Chassis/Nano> rdf:type owl:NamedIndividual ,
+                                                                                        :Chassis ;
+                                                                               :withName "Nano" ;
+                                                                               :withWeight 50 ;
+                                                                               <http://purl.org/dc/elements/1.1/date> "2025-10-11T07:05:14Z"^^xsd:dateTime .
 
 
-###  http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/80165
-<http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/80165> rdf:type owl:Class ;
-                                                                               rdfs:subClassOf :Size .
+#################################################################
+#    Annotations
+#################################################################
+
+:Component <http://purl.org/dc/elements/1.1/date> "2025-10-11T06:33:57Z"^^xsd:dateTime ,
+                                                  "2025-10-11T06:35:23Z"^^xsd:dateTime .
 
 
 #################################################################
 #    General axioms
 #################################################################
 
+[ owl:intersectionOf ( :Droid
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasChassis ;
+                         owl:allValuesFrom :Nano
+                       ]
+                     ) ;
+  rdf:type owl:Class ;
+  rdfs:subClassOf :Chassis
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Infrared
+                :Infrasonic
+                :Laser
+                :Microwave
+                :Optical
+                :Sonic
+                :Ultrasonic
+                :Ultraviolet
+                :Wireless
+              )
+] .
+
+
 [ rdf:type owl:AllDisjointClasses ;
   owl:members ( :AA
                 :AAA
                 :Coin
-                <http://www.semanticweb.org/droid/ontologies/2025/8/untitled-ontology-2/80165>
+                <http://www.semanticweb.org/droid/ontologies/2025/8/battledroids/80165>
               )
 ] .
 
