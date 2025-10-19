@@ -17,9 +17,6 @@
         <Literal>A very basic taxonomy to allow comparison of RPG ruleset characteristics.</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="#AEG"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Adventurer_Conqueror_King_System"/>
     </Declaration>
     <Declaration>
@@ -27,6 +24,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Battletech"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bonus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Build"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Champions"/>
@@ -62,7 +65,7 @@
         <Class IRI="#Game"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Green_Ronin"/>
+        <Class IRI="#Genre"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HERO_System"/>
@@ -81,6 +84,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Mastercraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modifier"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Modiphius_2d20"/>
@@ -107,6 +113,12 @@
         <Class IRI="#Pathfinder"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Penalty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publisher"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#RuneQuest"/>
     </Declaration>
     <Declaration>
@@ -120,6 +132,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Storyteller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Theme"/>
@@ -147,9 +162,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Warhammer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Wizards_of_the_Coast"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Year_Zero_Engine"/>
@@ -392,9 +404,6 @@
         <Class IRI="#game_role"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#genre"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#gm_role"/>
     </Declaration>
     <Declaration>
@@ -479,9 +488,6 @@
         <Class IRI="#modern"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#modifier"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#movement"/>
     </Declaration>
     <Declaration>
@@ -558,9 +564,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#progression"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#publisher"/>
     </Declaration>
     <Declaration>
         <Class IRI="#qualitative"/>
@@ -683,9 +686,6 @@
         <Class IRI="#super_hero"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#system"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#tabletop"/>
     </Declaration>
     <Declaration>
@@ -794,13 +794,43 @@
         <Class IRI="#Twilight:_2000"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#System"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#dice"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#exploding"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasBonus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLicense"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMechanic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasModifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPenalty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPhilosophy"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasSetting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSides"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasTheme"/>
@@ -818,16 +848,49 @@
         <ObjectProperty IRI="#publishes"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#sides"/>
+        <ObjectProperty IRI="#roll"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#rollOver"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#rollUnder"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#usesSystem"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#Dice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#System"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#publish_date"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#withEdition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withSides"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withVersion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withYear"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#AEG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adventure_Game_Engine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chronicle_System"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#DCC"/>
@@ -860,6 +923,9 @@
         <NamedIndividual IRI="#Tri_Stat_Xd"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#True20"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Wizards_of_the_Coast"/>
     </Declaration>
     <Declaration>
@@ -870,6 +936,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#d20_SRD_3.5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3rd_Era"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Powers_&amp;_Perils"/>
@@ -884,20 +953,6 @@
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
     </Declaration>
     <EquivalentClasses>
-        <Class IRI="#Game"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#system"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasSetting"/>
-                <Class IRI="#setting"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasTheme"/>
-                <Class IRI="#Theme"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#fantasy"/>
         <ObjectOneOf>
             <NamedIndividual IRI="#HighFantasy"/>
@@ -905,140 +960,148 @@
         </ObjectOneOf>
     </EquivalentClasses>
     <SubClassOf>
-        <Class IRI="#AEG"/>
-        <Class IRI="#publisher"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Adventurer_Conqueror_King_System"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Basic_Role-Playing"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Battletech"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bonus"/>
+        <Class IRI="#Modifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Build"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Champions"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cortex"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cyberpunk"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Deadlands"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Demon_Lord_Engine"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Earthdawn"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fate_Core_System"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Forged_in_the_Dark"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fudge"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GUMSHOE"/>
-        <Class IRI="#system"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Green_Ronin"/>
-        <Class IRI="#publisher"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HERO_System"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HarnMaster"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Heavy_Gear"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Legend_of_the_Five_Rings"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Marvel_d616"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mastercraft"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modifier"/>
+        <Class IRI="#roll"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Modiphius_2d20"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mothership"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mutants_and_Masterminds"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Old-School_Revival"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#One-Role_Engine"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Palladium_System"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Paranoia"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pathfinder"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Penalty"/>
+        <Class IRI="#Modifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RuneQuest"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Savage_Worlds"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Shadowrun"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Starfinder"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Storyteller"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Theme"/>
@@ -1046,43 +1109,39 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Top_Secret"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Traveller"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Tri_Stat_Xd"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Trinity_Universe"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#True20_Lite"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ubiquity"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Unisystem"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Warhammer"/>
-        <Class IRI="#system"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Wizards_of_the_Coast"/>
-        <Class IRI="#publisher"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Year_Zero_Engine"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ability"/>
@@ -1146,7 +1205,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#cartoon"/>
-        <Class IRI="#genre"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#character_churn"/>
@@ -1238,7 +1297,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#cyberpunk"/>
-        <Class IRI="#genre"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#d10"/>
@@ -1262,15 +1321,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#d20_SRD_3.0"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#d20_SRD_3.5"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#d20_custom"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#d4"/>
@@ -1278,11 +1337,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#d6"/>
-        <Class IRI="#notation"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#d6"/>
-        <Class IRI="#system"/>
+        <Class IRI="#notation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#d66"/>
@@ -1306,7 +1365,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#detective"/>
-        <Class IRI="#genre"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#dice"/>
@@ -1362,7 +1421,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#espionage"/>
-        <Class IRI="#genre"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#evade"/>
@@ -1386,11 +1445,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#family"/>
-        <Class IRI="#genre"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#fantasy"/>
-        <Class IRI="#genre"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#fast_paced"/>
@@ -1430,7 +1489,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#gurps"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#hackable"/>
@@ -1446,11 +1505,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#historical"/>
-        <Class IRI="#genre"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#horror"/>
-        <Class IRI="#genre"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#immunity"/>
@@ -1514,7 +1573,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#military"/>
-        <Class IRI="#genre"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#min_value"/>
@@ -1526,11 +1585,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#modern"/>
-        <Class IRI="#genre"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#modifier"/>
-        <Class IRI="#roll"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#movement"/>
@@ -1538,7 +1593,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#mutant"/>
-        <Class IRI="#genre"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#narrator"/>
@@ -1710,7 +1765,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#science_fiction"/>
-        <Class IRI="#genre"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#session"/>
@@ -1746,11 +1801,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#specfic"/>
-        <Class IRI="#genre"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#sport"/>
-        <Class IRI="#genre"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#stat"/>
@@ -1758,7 +1813,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#steampunk"/>
-        <Class IRI="#genre"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#step_down"/>
@@ -1778,7 +1833,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#super_hero"/>
-        <Class IRI="#genre"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#tabletop"/>
@@ -1858,75 +1913,75 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#western"/>
-        <Class IRI="#genre"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#young_adult"/>
-        <Class IRI="#genre"/>
+        <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#13th_Age"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#2d10_System"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#2d6"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#4C"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#6-6_System"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#7th_Sea"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Action!"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Darwin&apos;s_World"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dungeons_&amp;_Dragons_1e"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dungeons_&amp;_Dragons_3.5e"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dungeons_&amp;_Dragons_3e"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dungeons_&amp;_Dragons_4e"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dungeons_&amp;_Dragons_5e"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HARP/Rolemaster"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Powers_&amp;_Perils"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Twilight:_2000"/>
-        <Class IRI="#system"/>
+        <Class IRI="#System"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#Adventurer_Conqueror_King_System"/>
@@ -2108,7 +2163,7 @@
         <Class IRI="#d8"/>
     </DisjointClasses>
     <ClassAssertion>
-        <Class IRI="#publisher"/>
+        <Class IRI="#Publisher"/>
         <NamedIndividual IRI="#AEG"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2116,7 +2171,7 @@
         <NamedIndividual IRI="#Eldritch_Madness"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#publisher"/>
+        <Class IRI="#Publisher"/>
         <NamedIndividual IRI="#Green_Ronin"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2132,13 +2187,41 @@
         <NamedIndividual IRI="#ScienceFiction"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#publisher"/>
+        <Class IRI="#Publisher"/>
         <NamedIndividual IRI="#TSR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#System"/>
+        <NamedIndividual IRI="#True20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#System"/>
+        <NamedIndividual IRI="#3rd_Era"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Game"/>
         <NamedIndividual IRI="#Swords_&amp;_Wizardry"/>
     </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publishedBy"/>
+        <NamedIndividual IRI="#Adventure_Game_Engine"/>
+        <NamedIndividual IRI="#Green_Ronin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publishedBy"/>
+        <NamedIndividual IRI="#Chronicle_System"/>
+        <NamedIndividual IRI="#Green_Ronin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publishedBy"/>
+        <NamedIndividual IRI="#True20"/>
+        <NamedIndividual IRI="#Green_Ronin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publishedBy"/>
+        <NamedIndividual IRI="#3rd_Era"/>
+        <NamedIndividual IRI="#Green_Ronin"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#publishedBy"/>
         <NamedIndividual IRI="#Swords_&amp;_Wizardry"/>
@@ -2153,12 +2236,64 @@
         <ObjectProperty IRI="#dice"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBonus"/>
+        <ObjectProperty IRI="#hasModifier"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDice"/>
+        <ObjectProperty IRI="#roll"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasGenre"/>
+        <ObjectProperty IRI="#System"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLicense"/>
+        <ObjectProperty IRI="#System"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMechanic"/>
+        <ObjectProperty IRI="#System"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasModifier"/>
+        <ObjectProperty IRI="#roll"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPenalty"/>
+        <ObjectProperty IRI="#hasModifier"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPhilosophy"/>
+        <ObjectProperty IRI="#System"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSetting"/>
+        <ObjectProperty IRI="#System"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSides"/>
+        <ObjectProperty IRI="#dice"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTheme"/>
+        <ObjectProperty IRI="#System"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#is_chaining"/>
         <ObjectProperty IRI="#dice"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#sides"/>
-        <ObjectProperty IRI="#dice"/>
+        <ObjectProperty IRI="#publishedBy"/>
+        <ObjectProperty IRI="#System"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#rollOver"/>
+        <ObjectProperty IRI="#roll"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#rollUnder"/>
+        <ObjectProperty IRI="#roll"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="#publishedBy"/>
@@ -2171,29 +2306,131 @@
         <ObjectProperty IRI="#usesSystem"/>
     </FunctionalObjectProperty>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMechanic"/>
+        <Class IRI="#System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPhilosophy"/>
+        <Class IRI="#System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasSetting"/>
         <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#publishedBy"/>
+        <Class IRI="#System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#publishes"/>
+        <Class IRI="#Publisher"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#usesSystem"/>
         <Class IRI="#Game"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#Genre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMechanic"/>
+        <Class IRI="#mechanic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPhilosophy"/>
+        <Class IRI="#philosophy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasSetting"/>
         <Class IRI="#setting"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#usesSystem"/>
-        <Class IRI="#system"/>
+        <ObjectProperty IRI="#publishedBy"/>
+        <Class IRI="#Publisher"/>
     </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#publishes"/>
+        <Class IRI="#System"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usesSystem"/>
+        <Class IRI="#System"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withEdition"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withNumber"/>
+        <DataProperty IRI="#Dice"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withSides"/>
+        <DataProperty IRI="#Dice"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withVersion"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withYear"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
     <DataPropertyDomain>
         <DataProperty IRI="#publish_date"/>
         <Class IRI="#Game"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withEdition"/>
+        <Class IRI="#System"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withSides"/>
+        <Class IRI="#dice"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withVersion"/>
+        <Class IRI="#System"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withYear"/>
+        <Class IRI="#System"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#publish_date"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withEdition"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withSides"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withVersion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withYear"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Build</IRI>
+        <Literal>A Build modifiesSystem System and hasSystem System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#System</IRI>
+        <Literal>The ruleset; the collection of terms, rules, and data used to play a game in this system. It may or may not be a game in itself; it could just be a ruleset without any theme or setting.</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#abstract</IRI>
@@ -2354,11 +2591,6 @@
         <IRI>#stat</IRI>
         <Literal>trait
 skill</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#system</IRI>
-        <Literal>The ruleset; the collection of terms, rules, and data used to play a game in this system. It may or may not be a game in itself; it could just be a ruleset without any theme or setting.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
