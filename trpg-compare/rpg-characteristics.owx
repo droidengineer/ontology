@@ -47,6 +47,9 @@
         <Class IRI="#Combat"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Combat_System"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Concrete"/>
     </Declaration>
     <Declaration>
@@ -116,6 +119,9 @@
         <Class IRI="#Intangible"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Internal_Economy"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Landmark"/>
     </Declaration>
     <Declaration>
@@ -132,6 +138,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Mechanic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MechanicSystem"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Modifier"/>
@@ -170,6 +179,12 @@
         <Class IRI="#Penalty"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Physics_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Progression"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Publisher"/>
     </Declaration>
     <Declaration>
@@ -206,6 +221,9 @@
         <Class IRI="#Simultaneous"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Social_System"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Starfinder"/>
     </Declaration>
     <Declaration>
@@ -219,6 +237,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Tactical_Sequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tactical_System"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Tangible"/>
@@ -494,9 +515,6 @@
         <Class IRI="#initiative"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#internal_economy"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ladder"/>
     </Declaration>
     <Declaration>
@@ -575,9 +593,6 @@
         <Class IRI="#philosophy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#physics"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#player"/>
     </Declaration>
     <Declaration>
@@ -597,9 +612,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#position"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#progression"/>
     </Declaration>
     <Declaration>
         <Class IRI="#qualitative"/>
@@ -672,9 +684,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#social"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#social_interaction"/>
     </Declaration>
     <Declaration>
         <Class IRI="#solitary"/>
@@ -1015,6 +1024,10 @@
         <Class IRI="#Tactical_Sequence"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Combat_System"/>
+        <Class IRI="#Mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Concrete"/>
         <Class IRI="#Intangible"/>
     </SubClassOf>
@@ -1103,6 +1116,10 @@
         <Class IRI="#ResourceType"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Internal_Economy"/>
+        <Class IRI="#MechanicSystem"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Landmark"/>
         <Class IRI="#Region"/>
     </SubClassOf>
@@ -1121,6 +1138,10 @@
     <SubClassOf>
         <Class IRI="#Mastercraft"/>
         <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MechanicSystem"/>
+        <Class IRI="#Mechanic"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Modifier"/>
@@ -1167,6 +1188,14 @@
         <Class IRI="#Modifier"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Physics_System"/>
+        <Class IRI="#MechanicSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Progression"/>
+        <Class IRI="#MechanicSystem"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Region"/>
         <Class IRI="#Setting"/>
     </SubClassOf>
@@ -1207,6 +1236,10 @@
         <Class IRI="#time"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Social_System"/>
+        <Class IRI="#MechanicSystem"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Starfinder"/>
         <Class IRI="#System"/>
     </SubClassOf>
@@ -1221,6 +1254,10 @@
     <SubClassOf>
         <Class IRI="#Tactical_Sequence"/>
         <Class IRI="#Mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tactical_System"/>
+        <Class IRI="#MechanicSystem"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Tangible"/>
@@ -1607,10 +1644,6 @@
         <Class IRI="#Combat"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#internal_economy"/>
-        <Class IRI="#Mechanic"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#ladder"/>
         <Class IRI="#core_mechanic"/>
     </SubClassOf>
@@ -1715,10 +1748,6 @@
         <Class IRI="#Defense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#physics"/>
-        <Class IRI="#Mechanic"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#player"/>
         <Class IRI="#philosophy"/>
     </SubClassOf>
@@ -1741,10 +1770,6 @@
     <SubClassOf>
         <Class IRI="#position"/>
         <Class IRI="#movement"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#progression"/>
-        <Class IRI="#Mechanic"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#qualitative"/>
@@ -1837,10 +1862,6 @@
     <SubClassOf>
         <Class IRI="#social"/>
         <Class IRI="#meta_game_role"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#social_interaction"/>
-        <Class IRI="#Mechanic"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#solitary"/>
@@ -2165,6 +2186,13 @@
         <Class IRI="#Dungeons_&amp;_Dragons_4e"/>
         <Class IRI="#Dungeons_&amp;_Dragons_5e"/>
         <Class IRI="#Powers_&amp;_Perils"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Internal_Economy"/>
+        <Class IRI="#Physics_System"/>
+        <Class IRI="#Progression"/>
+        <Class IRI="#Social_System"/>
+        <Class IRI="#Tactical_System"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Top_Secret"/>

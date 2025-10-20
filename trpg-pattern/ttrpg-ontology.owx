@@ -36,6 +36,9 @@
         <Class IRI="#Equipment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Extra_Mechanic"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Factor"/>
     </Declaration>
     <Declaration>
@@ -189,10 +192,16 @@
         <Class IRI="/subject"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#Mechanic"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#Setting"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#factorType"/>
+        <ObjectProperty IRI="#Theme"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCondition"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasDescription"/>
@@ -210,6 +219,9 @@
         <ObjectProperty IRI="#hasFactor"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasFactorType"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasFeature"/>
     </Declaration>
     <Declaration>
@@ -217,6 +229,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasHistory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasItem"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasLandmark"/>
@@ -231,31 +246,31 @@
         <ObjectProperty IRI="#hasName"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasPlaybook"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasRegion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasResource"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasSociety"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasStep"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasType"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_a"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_a"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#is_step_for"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#numDice"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#numSides"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#part_of"/>
+        <DataProperty IRI="#System"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#dice"/>
@@ -265,6 +280,66 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#numSides"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withAverage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withCurrentEra"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withEffect"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withFlavorPitch"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withInitialValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withMaximum"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withMechanicalRole"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withMinimum"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withOutcome"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withQuestions"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withRange"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withResult"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withRole"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withSignificance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withSocialRole"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withSubject"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withValueType"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#attribute"/>
@@ -314,11 +389,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Condition"/>
-        <Class IRI="#CharacterProgression"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Condition"/>
-        <Class IRI="#PlayerRule"/>
+        <Class IRI="#GeneralProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Enumeration"/>
@@ -329,16 +400,16 @@
         <Class IRI="#PlayerRule"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Extra_Mechanic"/>
+        <Class IRI="/Mechanic"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Factor"/>
         <Class IRI="/Mechanic"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FactorType"/>
         <Class IRI="#Factor"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Feature"/>
-        <Class IRI="#Playbook"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Feature"/>
@@ -423,14 +494,6 @@
     <SubClassOf>
         <Class IRI="#Social"/>
         <Class IRI="/Property"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Step"/>
-        <Class IRI="#CharacterCreation"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Step"/>
-        <Class IRI="#CharacterProgression"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Step"/>
@@ -559,8 +622,8 @@
         <NamedIndividual IRI="#attribute"/>
     </ClassAssertion>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#factorType"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty IRI="#hasCondition"/>
+        <ObjectProperty IRI="#Mechanic"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasDescription"/>
@@ -579,8 +642,28 @@
         <ObjectProperty IRI="#Setting"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFactor"/>
+        <ObjectProperty IRI="#Mechanic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFactorType"/>
+        <ObjectProperty IRI="#Mechanic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFeature"/>
+        <ObjectProperty IRI="#Mechanic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFunction"/>
+        <ObjectProperty IRI="#Theme"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasHistory"/>
         <ObjectProperty IRI="#Setting"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasItem"/>
+        <ObjectProperty IRI="#Mechanic"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasLandmark"/>
@@ -588,7 +671,7 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasMove"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty IRI="#Mechanic"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasMystery"/>
@@ -599,27 +682,27 @@
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPlaybook"/>
+        <ObjectProperty IRI="#Mechanic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasRegion"/>
         <ObjectProperty IRI="#Setting"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasResource"/>
+        <ObjectProperty IRI="#Mechanic"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasSociety"/>
         <ObjectProperty IRI="#Setting"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_a"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#is_a"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty IRI="#hasStep"/>
+        <ObjectProperty IRI="#Mechanic"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#is_step_for"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#part_of"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <FunctionalObjectProperty>
@@ -628,15 +711,17 @@
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#hasName"/>
     </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="#has_a"/>
-    </FunctionalObjectProperty>
-    <TransitiveObjectProperty>
-        <ObjectProperty IRI="#is_a"/>
-    </TransitiveObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#factorType"/>
-        <Class IRI="#Factor"/>
+        <ObjectProperty IRI="#Mechanic"/>
+        <Class IRI="/System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Setting"/>
+        <Class IRI="/System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Theme"/>
+        <Class IRI="/System"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasDescription"/>
@@ -653,6 +738,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasEvent"/>
         <Class IRI="/History"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFactorType"/>
+        <Class IRI="#Factor"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasFunction"/>
@@ -683,8 +772,20 @@
         <Class IRI="/Setting"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#factorType"/>
-        <Class IRI="#FactorType"/>
+        <ObjectProperty IRI="#Mechanic"/>
+        <Class IRI="/Mechanic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Setting"/>
+        <Class IRI="/Setting"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Theme"/>
+        <Class IRI="/Theme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCondition"/>
+        <Class IRI="#Condition"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasDescription"/>
@@ -706,6 +807,14 @@
         <Class IRI="/Event"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFactor"/>
+        <Class IRI="#Factor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFactorType"/>
+        <Class IRI="#FactorType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasFeature"/>
         <Class IRI="#Feature"/>
     </ObjectPropertyRange>
@@ -718,8 +827,16 @@
         <Class IRI="/History"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasItem"/>
+        <Class IRI="#Item"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasLandmark"/>
         <Class IRI="/Landmark"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMove"/>
+        <Class IRI="#Move"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasMystery"/>
@@ -733,12 +850,24 @@
         </DataSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPlaybook"/>
+        <Class IRI="#Playbook"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasRegion"/>
         <Class IRI="/Region"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasResource"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasSociety"/>
         <Class IRI="/Society"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStep"/>
+        <Class IRI="#Step"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="#numDice"/>
@@ -748,9 +877,241 @@
         <DataProperty IRI="#numSides"/>
         <DataProperty IRI="#dice"/>
     </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withAverage"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withCurrentEra"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withDescription"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withEffect"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withFlavorPitch"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withInitialValue"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withMaximum"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withMechanicalRole"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withMinimum"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withName"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withOutcome"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withQuestions"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withRange"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withResult"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withRole"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withSignificance"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withSocialRole"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withStatus"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withSubject"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withValueType"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withAverage"/>
+        <Class IRI="#Resource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withCurrentEra"/>
+        <Class IRI="/Era"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withFlavorPitch"/>
+        <Class IRI="#Flavor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withInitialValue"/>
+        <Class IRI="#Resource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withMaximum"/>
+        <Class IRI="#Resource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withMechanicalRole"/>
+        <Class IRI="#Introduction"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withMechanicalRole"/>
+        <Class IRI="#Mechanical"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withMinimum"/>
+        <Class IRI="#Resource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withOutcome"/>
+        <Class IRI="/SpecialParameter"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withQuestions"/>
+        <Class IRI="/Mystery"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withRange"/>
+        <Class IRI="#Resource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withResult"/>
+        <Class IRI="#Factor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withResult"/>
+        <Class IRI="#Move"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withSignificance"/>
+        <Class IRI="/Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withSignificance"/>
+        <Class IRI="/Landmark"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withSocialRole"/>
+        <Class IRI="#Social"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withStatus"/>
+        <Class IRI="/Entity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#withSubject"/>
+        <Class IRI="/History"/>
+    </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#numSides"/>
         <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withAverage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withCurrentEra"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withEffect"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withFlavorPitch"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withInitialValue"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withMaximum"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withMechanicalRole"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withMinimum"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withOutcome"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withQuestions"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withRange"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withResult"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withRole"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withSignificance"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withSocialRole"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withSubject"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#withValueType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
@@ -768,9 +1129,9 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-29T21:50:31Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Condition</IRI>
-        <Literal>A general or playbook-specific condition that must be met in order to progress.</Literal>
+        <Literal xml:lang="en-us">A general or playbook-specific condition that must be met in order to use the Playbook or progress in it.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
@@ -916,11 +1277,6 @@ A factor can have one of four types: Scalar (has a positive or negative value th
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
-        <IRI>#factorType</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T04:14:34Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
         <IRI>#hasDescription</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-06T23:34:23Z</Literal>
     </AnnotationAssertion>
@@ -936,33 +1292,8 @@ A factor can have one of four types: Scalar (has a positive or negative value th
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
-        <IRI>#has_a</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:45:37Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
-        <IRI>#is_a</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:45:37Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
-        <IRI>#numDice</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T05:52:37Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
         <IRI>#numSides</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T05:36:06Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
-        <IRI>#numSides</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T05:38:36Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
-        <IRI>#part_of</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:45:37Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
