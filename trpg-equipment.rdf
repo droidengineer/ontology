@@ -43,6 +43,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#acceleration -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#acceleration">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Vehicle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#capacity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#capacity">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Vehicle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#crew -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#crew">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Vehicle"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#hasCrew -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#hasCrew">
@@ -93,6 +117,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#maneuverability -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#maneuverability">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Vehicle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#passengers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#passengers">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Vehicle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#speed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#speed">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Vehicle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#turning -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#turning">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Vehicle"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -124,25 +180,19 @@
 
     <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#acceleration -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#acceleration">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Vehicle"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#acceleration"/>
     
 
 
     <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#capacity -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#capacity">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Vehicle"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#capacity"/>
     
 
 
     <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#crew -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#crew">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Vehicle"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#crew"/>
     
 
 
@@ -156,9 +206,7 @@
 
     <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#maneuverability -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#maneuverability">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Vehicle"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#maneuverability"/>
     
 
 
@@ -172,25 +220,19 @@
 
     <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#passengers -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#passengers">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Vehicle"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#passengers"/>
     
 
 
     <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#speed -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#speed">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Vehicle"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#speed"/>
     
 
 
     <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#turning -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#turning">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Vehicle"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#turning"/>
     
 
 
@@ -239,6 +281,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#AreaOfEffect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#AreaOfEffect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#DamageSource"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Arm -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Arm">
@@ -259,6 +309,30 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Atmosphere">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Ballistic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Ballistic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#DamageSource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Beak -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Beak">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Natural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Bite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Bite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Natural"/>
     </owl:Class>
     
 
@@ -307,6 +381,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Chest">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Body"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Claw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Claw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Natural"/>
     </owl:Class>
     
 
@@ -371,6 +453,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Crushing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#DamageType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#DamageSource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#DamageSource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Equipment"/>
     </owl:Class>
     
 
@@ -563,6 +653,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Horn">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Body"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Natural"/>
     </owl:Class>
     
 
@@ -571,6 +662,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Hull">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#ItemLocation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#DamageSource"/>
     </owl:Class>
     
 
@@ -818,6 +917,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Pincer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Pincer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Natural"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#PointBlank -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#PointBlank">
@@ -1005,6 +1112,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Stinger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Stinger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Natural"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Superior -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Superior">
@@ -1021,9 +1136,25 @@
     
 
 
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Talon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Talon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Natural"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Tangibility -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Tangibility"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Targets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Targets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#ItemFactor"/>
+    </owl:Class>
     
 
 
@@ -1115,10 +1246,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Tusk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Tusk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Natural"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#TwoHanded -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#TwoHanded">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#ItemFactor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Unarmed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Unarmed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Natural"/>
     </owl:Class>
     
 
@@ -1227,6 +1374,19 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Toe"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Waist"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Wrist"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Beak"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Bite"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Claw"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Horn"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Pincer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Stinger"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Talon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/rpg-equipment#Tusk"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>

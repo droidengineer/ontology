@@ -23,6 +23,9 @@
         <Class IRI="#Action"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Add"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Adventurer_Conqueror_King_System"/>
     </Declaration>
     <Declaration>
@@ -83,6 +86,9 @@
         <Class IRI="#Competitor"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Comprehensive"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Concrete"/>
     </Declaration>
     <Declaration>
@@ -98,6 +104,15 @@
         <Class IRI="#Critical"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CriticalFailure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CriticalSuccess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crunch"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cyberpunk"/>
     </Declaration>
     <Declaration>
@@ -110,6 +125,9 @@
         <Class IRI="#Demon_Lord_Engine"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DensityMetric"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Descending_AC"/>
     </Declaration>
     <Declaration>
@@ -119,13 +137,25 @@
         <Class IRI="#Dice"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DiceChain"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#DicePool"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DiceRoller"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Dice_Stepping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Die"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Distance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Divide"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Draining"/>
@@ -155,9 +185,6 @@
         <Class IRI="#Facing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FailByHowMuch"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Failure"/>
     </Declaration>
     <Declaration>
@@ -174,6 +201,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Formal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Freeform"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Fudge"/>
@@ -206,6 +236,12 @@
         <Class IRI="#Genre"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#GroupDynamic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guide"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#HERO_System"/>
     </Declaration>
     <Declaration>
@@ -227,7 +263,22 @@
         <Class IRI="#HiddenRoll"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#High_Open_Ended"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HowMuchFailure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HowMuchSuccess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imploding"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Impromptu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#In-Character_Talk"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Informal"/>
@@ -257,6 +308,9 @@
         <Class IRI="#Lore"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Low_Open_Ended"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Marvel_d616"/>
     </Declaration>
     <Declaration>
@@ -284,16 +338,19 @@
         <Class IRI="#Movement"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Multiply"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Mutants_and_Masterminds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Narrative"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Narrator"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Natural"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Notation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#NumberOfDice"/>
@@ -308,7 +365,13 @@
         <Class IRI="#OldSchoolRevival"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OldSchoolRules"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#One-Role_Engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OneShot"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OpenEnded"/>
@@ -317,10 +380,19 @@
         <Class IRI="#OpenGaming"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Operator"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Opposed"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Optional"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Order"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Out-of-Character_Talk"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Outcome"/>
@@ -341,6 +413,9 @@
         <Class IRI="#Partial_Cover"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Participant"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Pathfinder"/>
     </Declaration>
     <Declaration>
@@ -354,6 +429,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Physics_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pirate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Player"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PlayerCharacter"/>
@@ -392,6 +473,9 @@
         <Class IRI="#Random"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Referee"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Region"/>
     </Declaration>
     <Declaration>
@@ -419,10 +503,49 @@
         <Class IRI="#Round"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Round_Down"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Round_Up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rounding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RuleChaining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RuleComplexity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RuleDensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RuleDepth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RuleWeight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rules-oriented_Talk"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#RulesBible"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#RulesHeavy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RulesLite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RulesMedium"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#RulesRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ruleset"/>
     </Declaration>
     <Declaration>
         <Class IRI="#RuneQuest"/>
@@ -444,6 +567,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Sides"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Simple"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Simultaneous"/>
@@ -476,13 +602,19 @@
         <Class IRI="#Storyteller"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Streamlined"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subtract"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Success"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SuccessByHowMuch"/>
+        <Class IRI="#System"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#System"/>
+        <Class IRI="#Tabletop"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Tactical_Sequence"/>
@@ -507,6 +639,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Threshold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tie"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Time"/>
@@ -537,6 +672,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Unisystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Universal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Virtual"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Warhammer"/>
@@ -593,9 +734,6 @@
         <Class IRI="#creator"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#crunchy"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#current_value"/>
     </Declaration>
     <Declaration>
@@ -615,6 +753,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#d20"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#d20_Roll"/>
     </Declaration>
     <Declaration>
         <Class IRI="#d20_SRD_3.0"/>
@@ -686,9 +827,6 @@
         <Class IRI="#formula"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#freeform"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#golden_rule"/>
     </Declaration>
     <Declaration>
@@ -746,9 +884,6 @@
         <Class IRI="#old_school"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#optional"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#parry"/>
     </Declaration>
     <Declaration>
@@ -774,12 +909,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#rpg_format"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#rule_density"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#rules_lite"/>
     </Declaration>
     <Declaration>
         <Class IRI="#science_fiction"/>
@@ -815,9 +944,6 @@
         <Class IRI="#super_hero"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#tabletop"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#talent"/>
     </Declaration>
     <Declaration>
@@ -837,9 +963,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#video_game"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#virtual"/>
     </Declaration>
     <Declaration>
         <Class IRI="#western"/>
@@ -896,10 +1019,13 @@
         <Class IRI="#Twilight:_2000"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#System"/>
+        <ObjectProperty IRI="#Dice"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#dice"/>
+        <ObjectProperty IRI="#Roll"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#System"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#exploding"/>
@@ -929,10 +1055,16 @@
         <ObjectProperty IRI="#hasPhilosophy"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasRuleComplexity"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasSetting"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasSides"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTargetValue"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasTheme"/>
@@ -950,13 +1082,13 @@
         <ObjectProperty IRI="#publishes"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#roll"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#rollOver"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#rollUnder"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#useDice"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#usesSystem"/>
@@ -965,7 +1097,40 @@
         <DataProperty IRI="#Dice"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#Ruleset"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#System"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numActions"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numAttributes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numClasses"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numDice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numFeats"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numModifiers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numRolls"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numRules"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numSettings"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numSkills"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#publish_date"/>
@@ -975,6 +1140,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#withEdition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#withLicense"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#withNumber"/>
@@ -1063,6 +1231,66 @@
     <Declaration>
         <AnnotationProperty IRI="#compatibleWith"/>
     </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#forExample"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#ruleComplexity"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#d10"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Die"/>
+            <DataHasValue>
+                <DataProperty IRI="#withSides"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#d12"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Die"/>
+            <DataHasValue>
+                <DataProperty IRI="#withSides"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#d20"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Die"/>
+            <DataHasValue>
+                <DataProperty IRI="#withSides"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#d8"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Die"/>
+            <DataHasValue>
+                <DataProperty IRI="#withSides"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#dF"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Die"/>
+            <DataHasValue>
+                <DataProperty IRI="#withNumber"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#withSides"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#fantasy"/>
         <ObjectOneOf>
@@ -1077,6 +1305,10 @@
     <SubClassOf>
         <Class IRI="#Action"/>
         <Class IRI="#Tactical_Sequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Add"/>
+        <Class IRI="#Operator"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Adventurer_Conqueror_King_System"/>
@@ -1167,6 +1399,10 @@
         <Class IRI="#PlayerRole"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Comprehensive"/>
+        <Class IRI="#RuleDensity"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Concrete"/>
         <Class IRI="#Intangible"/>
     </SubClassOf>
@@ -1188,7 +1424,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Critical"/>
-        <Class IRI="#Roll"/>
+        <Class IRI="#Outcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CriticalFailure"/>
+        <Class IRI="#Critical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CriticalSuccess"/>
+        <Class IRI="#Critical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crunch"/>
+        <Class IRI="#DensityMetric"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cyberpunk"/>
@@ -1207,6 +1455,10 @@
         <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DensityMetric"/>
+        <Class IRI="#RuleDensity"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Descending_AC"/>
         <Class IRI="#Armor_Class"/>
     </SubClassOf>
@@ -1219,8 +1471,8 @@
         <Class IRI="#Random"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Dice"/>
-        <Class IRI="#ResourceValue"/>
+        <Class IRI="#DiceChain"/>
+        <Class IRI="#Dice_Stepping"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DicePool"/>
@@ -1235,8 +1487,40 @@
         <Class IRI="#PlayerRole"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Dice_Stepping"/>
+        <Class IRI="#Dice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Die"/>
+        <Class IRI="#Dice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Die"/>
+        <Class IRI="#ResourceValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Die"/>
+        <ObjectUnionOf>
+            <Class IRI="#d10"/>
+            <Class IRI="#d100"/>
+            <Class IRI="#d12"/>
+            <Class IRI="#d2"/>
+            <Class IRI="#d20"/>
+            <Class IRI="#d3"/>
+            <Class IRI="#d4"/>
+            <Class IRI="#d6"/>
+            <Class IRI="#d66"/>
+            <Class IRI="#d8"/>
+            <Class IRI="#dF"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Distance"/>
         <Class IRI="#Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Divide"/>
+        <Class IRI="#Operator"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Draining"/>
@@ -1275,10 +1559,6 @@
         <Class IRI="#Movement"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#FailByHowMuch"/>
-        <Class IRI="#Failure"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Failure"/>
         <Class IRI="#Outcome"/>
     </SubClassOf>
@@ -1301,6 +1581,10 @@
     <SubClassOf>
         <Class IRI="#Formal"/>
         <Class IRI="#Playstyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Freeform"/>
+        <Class IRI="#RulesRole"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fudge"/>
@@ -1339,6 +1623,14 @@
         <Class IRI="#Game"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#GroupDynamic"/>
+        <Class IRI="#Philosophy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guide"/>
+        <Class IRI="#GMRole"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#HERO_System"/>
         <Class IRI="#System"/>
     </SubClassOf>
@@ -1367,8 +1659,28 @@
         <Class IRI="#Roll"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#High_Open_Ended"/>
+        <Class IRI="#OpenEnded"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HowMuchFailure"/>
+        <Class IRI="#ByHowMuch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HowMuchSuccess"/>
+        <Class IRI="#ByHowMuch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Imploding"/>
+        <Class IRI="#Dice"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Impromptu"/>
         <Class IRI="#Playstyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#In-Character_Talk"/>
+        <Class IRI="#GroupDynamic"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Informal"/>
@@ -1407,6 +1719,10 @@
         <Class IRI="#Setting"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Low_Open_Ended"/>
+        <Class IRI="#OpenEnded"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Marvel_d616"/>
         <Class IRI="#System"/>
     </SubClassOf>
@@ -1427,6 +1743,13 @@
         <Class IRI="#Roll"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Modifier"/>
+        <ObjectUnionOf>
+            <Class IRI="#Bonus"/>
+            <Class IRI="#Penalty"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Modiphius_2d20"/>
         <Class IRI="#System"/>
     </SubClassOf>
@@ -1439,8 +1762,16 @@
         <Class IRI="#Tactical_Sequence"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Multiply"/>
+        <Class IRI="#Operator"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Mutants_and_Masterminds"/>
         <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Narrative"/>
+        <Class IRI="#RulesRole"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Narrator"/>
@@ -1452,10 +1783,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Natural"/>
-        <Class IRI="#Dice"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Notation"/>
         <Class IRI="#Dice"/>
     </SubClassOf>
     <SubClassOf>
@@ -1475,8 +1802,16 @@
         <Class IRI="#RulesRole"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OldSchoolRules"/>
+        <Class IRI="#RulesRole"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#One-Role_Engine"/>
         <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OneShot"/>
+        <Class IRI="#GameRole"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OpenEnded"/>
@@ -1487,12 +1822,24 @@
         <Class IRI="#RulesRole"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Operator"/>
+        <Class IRI="#Roll"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Opposed"/>
         <Class IRI="#Roll"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Optional"/>
+        <Class IRI="#RuleDensity"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Order"/>
         <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Out-of-Character_Talk"/>
+        <Class IRI="#GroupDynamic"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Outcome"/>
@@ -1531,6 +1878,14 @@
         <Class IRI="#MechanicSystem"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Pirate"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Player"/>
+        <Class IRI="#Participant"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#PlayerRole"/>
         <Class IRI="#Philosophy"/>
     </SubClassOf>
@@ -1565,6 +1920,10 @@
     <SubClassOf>
         <Class IRI="#QuantitativeScalar"/>
         <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Referee"/>
+        <Class IRI="#Participant"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Region"/>
@@ -1607,8 +1966,64 @@
         <Class IRI="#Time"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Round_Down"/>
+        <Class IRI="#Rounding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Round_Up"/>
+        <Class IRI="#Rounding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rounding"/>
+        <Class IRI="#Roll"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RuleChaining"/>
+        <Class IRI="#DensityMetric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RuleComplexity"/>
+        <Class IRI="#DensityMetric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RuleComplexity"/>
+        <ObjectUnionOf>
+            <Class IRI="#RulesHeavy"/>
+            <Class IRI="#RulesLite"/>
+            <Class IRI="#RulesMedium"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RuleDensity"/>
+        <Class IRI="#Ruleset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RuleDepth"/>
+        <Class IRI="#DensityMetric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RuleWeight"/>
+        <Class IRI="#DensityMetric"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rules-oriented_Talk"/>
+        <Class IRI="#GroupDynamic"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#RulesBible"/>
         <Class IRI="#RulesRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RulesHeavy"/>
+        <Class IRI="#RuleComplexity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RulesLite"/>
+        <Class IRI="#RuleComplexity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RulesMedium"/>
+        <Class IRI="#RuleComplexity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RulesRole"/>
@@ -1641,6 +2056,10 @@
     <SubClassOf>
         <Class IRI="#Sides"/>
         <Class IRI="#Dice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Simple"/>
+        <Class IRI="#DensityMetric"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Simultaneous"/>
@@ -1683,12 +2102,20 @@
         <Class IRI="#System"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Streamlined"/>
+        <Class IRI="#RuleDensity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subtract"/>
+        <Class IRI="#Operator"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Success"/>
         <Class IRI="#Outcome"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SuccessByHowMuch"/>
-        <Class IRI="#Success"/>
+        <Class IRI="#Tabletop"/>
+        <Class IRI="#rpg_format"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Tactical_Sequence"/>
@@ -1721,6 +2148,10 @@
     <SubClassOf>
         <Class IRI="#Threshold"/>
         <Class IRI="#Roll"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tie"/>
+        <Class IRI="#Outcome"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Time"/>
@@ -1761,6 +2192,14 @@
     <SubClassOf>
         <Class IRI="#Unisystem"/>
         <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Universal"/>
+        <Class IRI="#RuleDensity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Virtual"/>
+        <Class IRI="#rpg_format"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Warhammer"/>
@@ -1839,10 +2278,6 @@
         <Class IRI="#GMRole"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#crunchy"/>
-        <Class IRI="#rule_density"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#current_value"/>
         <Class IRI="#Resource"/>
     </SubClassOf>
@@ -1851,24 +2286,24 @@
         <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#d10"/>
-        <Class IRI="#Notation"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#d100"/>
-        <Class IRI="#Notation"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#d12"/>
-        <Class IRI="#Notation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Die"/>
+            <DataHasValue>
+                <DataProperty IRI="#withSides"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#d2"/>
-        <Class IRI="#Notation"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#d20"/>
-        <Class IRI="#Notation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Die"/>
+            <DataHasValue>
+                <DataProperty IRI="#withSides"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#d20_SRD_3.0"/>
@@ -1884,31 +2319,41 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#d3"/>
-        <Class IRI="#Notation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Die"/>
+            <DataHasValue>
+                <DataProperty IRI="#withSides"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#d4"/>
-        <Class IRI="#Notation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Die"/>
+            <DataHasValue>
+                <DataProperty IRI="#withSides"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#d6"/>
-        <Class IRI="#Notation"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#d6"/>
-        <Class IRI="#System"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Die"/>
+            <DataHasValue>
+                <DataProperty IRI="#withSides"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#d66"/>
-        <Class IRI="#Notation"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#d8"/>
-        <Class IRI="#Notation"/>
+        <Class IRI="#Die"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#dF"/>
-        <Class IRI="#Notation"/>
+        <Class IRI="#Die"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#damage"/>
@@ -1965,10 +2410,6 @@
     <SubClassOf>
         <Class IRI="#formula"/>
         <Class IRI="#core_mechanic"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#freeform"/>
-        <Class IRI="#RulesRole"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#golden_rule"/>
@@ -2047,10 +2488,6 @@
         <Class IRI="#meta_game_role"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#optional"/>
-        <Class IRI="#rule_density"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#parry"/>
         <Class IRI="#Defense"/>
     </SubClassOf>
@@ -2083,16 +2520,12 @@
         <Class IRI="#PlayerCharacter"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#rules_lite"/>
-        <Class IRI="#rule_density"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#science_fiction"/>
         <Class IRI="#Genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#simplified"/>
-        <Class IRI="#rule_density"/>
+        <Class IRI="#RuleDensity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#skill"/>
@@ -2116,11 +2549,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#step_down"/>
-        <Class IRI="#Dice"/>
+        <Class IRI="#Dice_Stepping"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#step_up"/>
-        <Class IRI="#Dice"/>
+        <Class IRI="#Dice_Stepping"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#storytelling"/>
@@ -2129,10 +2562,6 @@
     <SubClassOf>
         <Class IRI="#super_hero"/>
         <Class IRI="#Genre"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#tabletop"/>
-        <Class IRI="#rpg_format"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#talent"/>
@@ -2164,10 +2593,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#video_game"/>
-        <Class IRI="#rpg_format"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#virtual"/>
         <Class IRI="#rpg_format"/>
     </SubClassOf>
     <SubClassOf>
@@ -2243,6 +2668,16 @@
         <Class IRI="#System"/>
     </SubClassOf>
     <DisjointClasses>
+        <Class IRI="#Add"/>
+        <Class IRI="#Divide"/>
+        <Class IRI="#Multiply"/>
+        <Class IRI="#Subtract"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CriticalFailure"/>
+        <Class IRI="#CriticalSuccess"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Equal"/>
         <Class IRI="#GTE"/>
         <Class IRI="#LTE"/>
@@ -2250,19 +2685,24 @@
         <Class IRI="#RollUnder"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#FailByHowMuch"/>
-        <Class IRI="#FullFailure"/>
-        <Class IRI="#PartialFailure"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="#FullAction"/>
         <Class IRI="#HalfAction"/>
         <Class IRI="#SpecialAction"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#FullFailure"/>
+        <Class IRI="#HowMuchFailure"/>
+        <Class IRI="#PartialFailure"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#FullSuccess"/>
+        <Class IRI="#HowMuchSuccess"/>
         <Class IRI="#PartialSuccess"/>
-        <Class IRI="#SuccessByHowMuch"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#In-Character_Talk"/>
+        <Class IRI="#Out-of-Character_Talk"/>
+        <Class IRI="#Rules-oriented_Talk"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Internal_Economy"/>
@@ -2272,11 +2712,28 @@
         <Class IRI="#Tactical_System"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#Round_Down"/>
+        <Class IRI="#Round_Up"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Tabletop"/>
         <Class IRI="#actual_play"/>
         <Class IRI="#live_action"/>
-        <Class IRI="#tabletop"/>
         <Class IRI="#text-based"/>
         <Class IRI="#video_game"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#d10"/>
+        <Class IRI="#d100"/>
+        <Class IRI="#d12"/>
+        <Class IRI="#d2"/>
+        <Class IRI="#d20"/>
+        <Class IRI="#d3"/>
+        <Class IRI="#d4"/>
+        <Class IRI="#d6"/>
+        <Class IRI="#d66"/>
+        <Class IRI="#d8"/>
+        <Class IRI="#dF"/>
     </DisjointClasses>
     <ClassAssertion>
         <Class IRI="#Publisher"/>
@@ -2319,6 +2776,10 @@
         <NamedIndividual IRI="#3rd_Era"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#System"/>
+        <NamedIndividual IRI="#Powers_&amp;_Perils"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Game"/>
         <NamedIndividual IRI="#Swords_&amp;_Wizardry"/>
     </ClassAssertion>
@@ -2347,13 +2808,18 @@
         <NamedIndividual IRI="#Swords_&amp;_Wizardry"/>
         <NamedIndividual IRI="#Green_Ronin"/>
     </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ruleset"/>
+        <NamedIndividual IRI="#Powers_&amp;_Perils"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#ruleComplexity">Rules Heavy</Literal>
+    </DataPropertyAssertion>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#dice"/>
+        <ObjectProperty IRI="#Dice"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#exploding"/>
-        <ObjectProperty IRI="#dice"/>
+        <ObjectProperty IRI="#Dice"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasBonus"/>
@@ -2361,7 +2827,7 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasDice"/>
-        <ObjectProperty IRI="#roll"/>
+        <ObjectProperty IRI="#Dice"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasGenre"/>
@@ -2377,7 +2843,7 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasModifier"/>
-        <ObjectProperty IRI="#roll"/>
+        <ObjectProperty IRI="#Roll"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasPenalty"/>
@@ -2388,12 +2854,20 @@
         <ObjectProperty IRI="#System"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRuleComplexity"/>
+        <ObjectProperty IRI="#System"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasSetting"/>
         <ObjectProperty IRI="#System"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasSides"/>
-        <ObjectProperty IRI="#dice"/>
+        <ObjectProperty IRI="#Dice"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTargetValue"/>
+        <ObjectProperty IRI="#Roll"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasTheme"/>
@@ -2401,7 +2875,7 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#is_chaining"/>
-        <ObjectProperty IRI="#dice"/>
+        <ObjectProperty IRI="#Dice"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#publishedBy"/>
@@ -2409,11 +2883,15 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#rollOver"/>
-        <ObjectProperty IRI="#roll"/>
+        <ObjectProperty IRI="#Roll"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#rollUnder"/>
-        <ObjectProperty IRI="#roll"/>
+        <ObjectProperty IRI="#Roll"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#useDice"/>
+        <ObjectProperty IRI="#Roll"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="#publishedBy"/>
@@ -2426,6 +2904,10 @@
         <ObjectProperty IRI="#usesSystem"/>
     </FunctionalObjectProperty>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDice"/>
+        <Class IRI="#System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasGenre"/>
         <Class IRI="#System"/>
     </ObjectPropertyDomain>
@@ -2435,6 +2917,10 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasPhilosophy"/>
+        <Class IRI="#System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRuleComplexity"/>
         <Class IRI="#System"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -2466,8 +2952,23 @@
         <Class IRI="#Mechanic"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasModifier"/>
+        <Class IRI="#Modifier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasPhilosophy"/>
         <Class IRI="#Philosophy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRuleComplexity"/>
+        <Class IRI="#RuleComplexity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRuleComplexity"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Ruleset"/>
+            <Datatype IRI="#ruleComplexity"/>
+        </DataAllValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasSetting"/>
@@ -2490,11 +2991,59 @@
         <Class IRI="#System"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
+        <DataProperty IRI="#Ruleset"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#numActions"/>
+        <DataProperty IRI="#Ruleset"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#numAttributes"/>
+        <DataProperty IRI="#Ruleset"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#numClasses"/>
+        <DataProperty IRI="#Ruleset"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#numDice"/>
+        <DataProperty IRI="#Ruleset"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#numFeats"/>
+        <DataProperty IRI="#Ruleset"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#numModifiers"/>
+        <DataProperty IRI="#Ruleset"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#numRolls"/>
+        <DataProperty IRI="#Ruleset"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#numRules"/>
+        <DataProperty IRI="#Ruleset"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#numSettings"/>
+        <DataProperty IRI="#Ruleset"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#numSkills"/>
+        <DataProperty IRI="#Ruleset"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#withCreator"/>
         <DataProperty IRI="#System"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#withEdition"/>
+        <DataProperty IRI="#System"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#withLicense"/>
         <DataProperty IRI="#System"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
@@ -2585,8 +3134,78 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Comprehensive</IRI>
+        <Literal>Having rules which aim to cover every situation which characters could expect to find themselves in (even if those rules end up similar to other situations). Basically, the book sets out to describe what should happen in any likely gameplay scenario.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Concrete</IRI>
         <Literal>some resources might appear to be abstract are in fact quite concrete. For example, experience points are not an abstract resource in a role-playing game. Instead, they are an intangible, but real, commodity that must be earned and (sometimes) spent like money. Happiness and reputation are two more resources used by many games that, although they are intangible, are nevertheless concrete parts of the game.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CriticalFailure</IRI>
+        <Literal>Critical Failure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CriticalSuccess</IRI>
+        <Literal>Critical Success</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Crunch</IRI>
+        <Literal>Often synonymous with “rules-heavy,” but focused specifically on numerical load — modifiers, subsystems, and optimization complexity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Crunch</IRI>
+        <Literal xml:lang="en">The amount of arithmetic, modifiers, and numeric tracking involved in play. “High-crunch” games require more calculations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Crunch</IRI>
+        <Literal>Computational Intensity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DensityMetric</IRI>
+        <Literal>Density Metric</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#forExample"/>
+        <IRI>#DiceChain</IRI>
+        <Literal>d4-d6-d8-d10-d12-d18-d20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DiceChain</IRI>
+        <Literal>The system for stepping up and down through different die types specifies this sequence of die types (chain).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DiceChain</IRI>
+        <Literal>Dice Chain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DicePool</IRI>
+        <Literal>Dice Pool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#AKA"/>
+        <IRI>#Dice_Stepping</IRI>
+        <Literal>Dice Swapping</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dice_Stepping</IRI>
+        <Literal>Using larger or smaller dice for lesser or greater dificulty when rolling to determine the success of a roll or action, in general.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Dice_Stepping</IRI>
+        <Literal>Dice Stepping</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#AKA"/>
@@ -2602,6 +3221,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Final_Arbitrator</IRI>
         <Literal>The GM&apos;s word is final. They have the final say.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FullFailure</IRI>
+        <Literal>Full Failure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FullSuccess</IRI>
+        <Literal>Full Success</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2624,6 +3253,16 @@
         <Literal>The roll itself is hidden from everyone (or select ones) with the exception of the DiceRoller. That is, no one even knows the dice were rolled for something. Used when even the result of failure being known would indicate information that should not be known.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#High_Open_Ended</IRI>
+        <Literal>High Open Ended</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HowMuchFailure</IRI>
+        <Literal>Failed By How Much</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Intangible</IRI>
         <Literal>Intangible resources have no physical properties in the game world—they do not occupy space or exist in a particular location. For example, once the trees in Warcraft have been harvested, they are changed into lumber, which is intangible. Lumber is just a number—it doesn’t exist in a location.</Literal>
@@ -2634,6 +3273,11 @@
         <Literal>Less Than or Equal to (&lt;=)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Low_Open_Ended</IRI>
+        <Literal>Low Open Ended</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#MechanicalFeature</IRI>
         <Literal xml:lang="en">A PlayerCharacter Characteristic that provides mechanical force in the game. Examples include backgrounds, feats, race, profession, etc.</Literal>
@@ -2642,6 +3286,31 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Natural</IRI>
         <Literal>A Natural is when you roll an unmodified lowest or highest value on the die.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumberOfDice</IRI>
+        <Literal xml:lang="en">Number of Dice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OpenEnded</IRI>
+        <Literal>Open Ended</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Opposed</IRI>
+        <Literal>The TargetValue is not set and is determined from another roll, usually by a character opposing the action.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PartialFailure</IRI>
+        <Literal>Partial Failure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PartialSuccess</IRI>
+        <Literal>Partial Success</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
@@ -2680,13 +3349,98 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RuleChaining</IRI>
+        <Literal>A measure of how much or often a resolution requires rolling dice, looking up tables, player character sheets, etc before it can be resolved.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RuleChaining</IRI>
+        <Literal>Rule Chaining</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RuleComplexity</IRI>
+        <Literal xml:lang="en">General measure describing how many and how detailed the rules are overall. Sometimes expressed as rules-light, rules-medium, and rules-heavy tiers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#RuleComplexity</IRI>
+        <Literal>How easy it is to use the rules in play.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RuleComplexity</IRI>
+        <Literal xml:lang="en">Rule Complexity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RuleDensity</IRI>
+        <Literal>General measure combining the above elements — sometimes expressed as rules-light, rules-medium, and rules-heavy tiers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RuleDensity</IRI>
+        <Literal>In tabletop RPG design and criticism, rule density is typically described along several overlapping axes such as weight, depth, and crunch. Different frameworks use slightly different terms, but they all describe how many rules exist, how interconnected they are, and how complex they are to apply.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RuleDensity</IRI>
+        <Literal>Rule Density</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RuleDepth</IRI>
+        <Literal>How strongly rules interact or layer on each other to form emergent situations or strategies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#RuleDepth</IRI>
+        <Literal>Interconnection and Emergent Complexity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RuleWeight</IRI>
+        <Literal>The number of discrete rules in the game. Rules-light games use minimal mechanics; rules-heavy systems have extensive procedures and subsystems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#RuleWeight</IRI>
+        <Literal>Quantity of Rules</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#RulesBible</IRI>
         <Literal>The rules have primacy over arbitrary rulings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RulesHeavy</IRI>
+        <Literal xml:lang="en">Rules Heavy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RulesLite</IRI>
+        <Literal xml:lang="en">Rules Lite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RulesMedium</IRI>
+        <Literal>Rules Medium</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#RulesRole</IRI>
         <Literal>What role does this game&apos;s rules play?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sides</IRI>
+        <Literal>Number of Sides</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Simple</IRI>
+        <Literal>The written rules are computation light and fairly intuitive. There aren’t a lot of modifiers to be accounted for, not a lot of dice rolls required for single actions, and multiple types of action are resolved using the same game mechanics.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2698,6 +3452,11 @@
         <IRI>#Statistic</IRI>
         <Literal>trait
 skill</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Streamlined</IRI>
+        <Literal>A term for systems that maintain depth or meaningful options while minimizing rule weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2717,6 +3476,10 @@ skill</Literal>
     <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A non-numeric value (e.g. Fair, Poor, Great, etc) that sets the failure/success boundry for a roll.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal>The numeric value that sets the failure/success boundry for a roll.</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2724,9 +3487,24 @@ skill</Literal>
         <Literal>The target value to the roll aspires to defeat.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TargetValue</IRI>
+        <Literal>Target Value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#TargetValue</IRI>
+        <Literal>Target Number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Threshold</IRI>
         <Literal>How many times a rolled value must occur to be successful (or fail).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Universal</IRI>
+        <Literal>The written rules are not bound to any given setting, and instead set out to just provide a general framework for any sort of character doing any sort of thing. The rules don’t emphasize the creation of characters towards any particular archetype.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2742,6 +3520,11 @@ skill</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#character_creation</IRI>
         <Literal>Character creation is the process of defining a player character in a role-playing game.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#core_mechanic</IRI>
+        <Literal>Core Mechanic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2804,6 +3587,11 @@ skill</Literal>
         <Literal>A collection of resources.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rpg_format</IRI>
+        <Literal>RPG Format</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
         <IRI>#simplified</IRI>
         <Literal>droid</Literal>
@@ -2814,10 +3602,53 @@ skill</Literal>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-20T17:58:57Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#AKA"/>
+        <IRI>#step_down</IRI>
+        <Literal>reduced die</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#forExample"/>
+        <IRI>#step_down</IRI>
+        <Literal>d6 -&gt; d4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#step_down</IRI>
+        <Literal xml:lang="en">Step Down</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#AKA"/>
+        <IRI>#step_up</IRI>
+        <Literal>improved die</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#forExample"/>
+        <IRI>#step_up</IRI>
+        <Literal>d6 -&gt; d8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#step_up</IRI>
+        <Literal>Increase the die type by one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#step_up</IRI>
+        <Literal>Step Up</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#task_resolution</IRI>
         <Literal>A standardized mechanism for determining the success or failure (or varying levels thereof) of any given task.</Literal>
     </AnnotationAssertion>
+    <DatatypeDefinition>
+        <Datatype IRI="#ruleComplexity"/>
+        <DataOneOf>
+            <Literal>Rules Heavy</Literal>
+            <Literal>Rules Light</Literal>
+            <Literal>Rules Medium</Literal>
+        </DataOneOf>
+    </DatatypeDefinition>
 </Ontology>
 
 
