@@ -347,6 +347,12 @@
     <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
     </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/example"/>
+    </Declaration>
     <EquivalentClasses>
         <Class IRI="#Equipment"/>
         <ObjectIntersectionOf>
@@ -1326,6 +1332,23 @@ A factor can have one of four types: Scalar (has a positive or negative value th
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:49:03Z</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="/description"/>
+        <IRI>/Function</IRI>
+        <Literal>A function is a means by which a given theme is embodied within the design and play of the system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/example"/>
+        <IRI>/Function</IRI>
+        <Literal>Exploring the disorientation inherent in adolescence through the lense of monstrosity and using monstrosity as an allegory to explore the other &quot;monstrous&quot; qualities of teenagers (Monsterhearts 2)
+
+Scarcity in resources driving character motivations and providing an ominous sense of the unknown which haunts both play and story (Apocalypse World)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Function</IRI>
+        <Literal>Any given theme whould have one or more functions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
         <IRI>/History</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:37:37Z</Literal>
@@ -1379,6 +1402,19 @@ A factor can have one of four types: Scalar (has a positive or negative value th
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
         <IRI>/Theme</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:36:12Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/description"/>
+        <IRI>/Theme</IRI>
+        <Literal>A theme is a short description of a principle or tonal affect that drives the design and play of a system. It characterizes what makes a system interesting, or what that system is generally &quot;about.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/example"/>
+        <IRI>/Theme</IRI>
+        <Literal>Some themes may include information about:
+ * genre (post-apocalyptic of Apocalypse World, psychological horror of Master and Me)
+ * approach or spin (&lt;TODO&gt;)
+ * general premise of the system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
@@ -1450,6 +1486,14 @@ A factor can have one of four types: Scalar (has a positive or negative value th
         <IRI>/subject</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-22T19:42:32Z</Literal>
     </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="/description"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="/example"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+    </SubAnnotationPropertyOf>
 </Ontology>
 
 

@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers/"
+     xml:base="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers">
+        <rdfs:comment>TTRPG Powers: Arcane, Patron, Psychic, Natural: Supernatural, Natural: Preternatural</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Acolyte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Acolyte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Relationship"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Avatar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Avatar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Relationship"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Boon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Boon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Patronage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Discipline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Discipline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Paths"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Domain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Domain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Patron"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Innate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Innate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#MagicOrigin"/>
+        <rdfs:comment>Internal source of power. Comes from within.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Learned -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Learned">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#MagicOrigin"/>
+        <rdfs:comment xml:lang="en">External source of power. Comes from without.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Magic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Magic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#ttrpg-powers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#MagicOrigin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#MagicOrigin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Magic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#MagicResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#MagicResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Magic"/>
+        <rdfs:comment>mana, mana pool, arcane energy, eldritch points, etc.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Natural -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Natural">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#ttrpg-powers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Paths -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Paths">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Magic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Patron -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Patron">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#ttrpg-powers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Patronage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Patronage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Patron"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Preternatural -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Preternatural">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#ttrpg-powers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Psychic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Psychic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#ttrpg-powers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Qualities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Qualities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Relationship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Relationship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Patron"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Requirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Requirement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#School -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#School">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Paths"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Patron"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Spell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Spell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Spells"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#SpellList -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#SpellList">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Spells"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Spells -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Spells">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Magic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Standing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Standing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Supernatural -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Supernatural">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#ttrpg-powers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#ttrpg-powers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#ttrpg-powers"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Magic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Natural"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Patron"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Preternatural"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Psychic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-powers#Supernatural"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

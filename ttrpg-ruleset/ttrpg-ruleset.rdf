@@ -1,0 +1,731 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset/"
+     xml:base="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:this="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#"
+     xmlns:rpg-characteristics="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset/2025.10.9"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#AKA -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#AKA"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#description -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#example -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#example"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#ruleOID -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#ruleOID"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Modifier -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Modifier"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#System -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#System"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#hasModifier -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#hasModifier">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Modifier"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Ability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Circumstance"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Competence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Modifier"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Size"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#hasSides -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#hasSides">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Dice"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#hasSubsystem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#hasSubsystem">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#System"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#isSubsystemOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#System"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#System"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#hasTacticalSequence -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#hasTacticalSequence">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#TacticalSequence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#isSubsystemOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#isSubsystemOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#System"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#System"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#System"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#modifyRoll -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#modifyRoll">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Modifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#modifyTN -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#modifyTN">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Modifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#sides -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#sides">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Dice"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#value"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#Crunch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#Crunch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#DensityMetric"/>
+        <rdfs:comment xml:lang="en">A measure of how much arithmetic (adding, subtracting, multiplying, dividing) is required by the rules.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#DensityMetric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#DensityMetric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#RuleDensity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#GTE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#GTE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Comparator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#LTE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#LTE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Comparator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#RuleDepth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#RuleDepth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#DensityMetric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#RuleWeight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#RuleWeight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#DensityMetric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Ability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Ability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Modifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Atomic_Rule_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Activation_Dependency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Activation_Dependency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#RuleDepth"/>
+        <this:description xml:lang="en">Rule A is only triggered, modified, or checked if Rule B&apos;s conditions are met, or vice versa.</this:description>
+        <rdfs:isDefinedBy xml:lang="en">Counting conditional statements (e.g. &quot;If wearing heavy armor, apply a penalty to spellcasting.&quot;).</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Atomic_Rule_Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Atomic_Rule_Elements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Character_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Character_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#State"/>
+        <this:example xml:lang="en">Unconscious, Healthy, Wounded, Fleeing, Encumbered, Charmed, Invisible</this:example>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Circumstance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Circumstance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Modifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Circumstantial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Circumstantial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Atomic_Rule_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Comparator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Comparator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Roll"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Competence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Competence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Modifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Conditional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Conditional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Atomic_Rule_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Dice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Dice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Roll"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Duration_Timing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Duration_Timing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Atomic_Rule_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#EQ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#EQ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Comparator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Emergent_Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Emergent_Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#RuleDepth"/>
+        <this:description xml:lang="en">The combination produces an outcome not directly specified by either rule alone, but through their joint effect.</this:description>
+        <rdfs:isDefinedBy xml:lang="en">Logging playtest instances where the combination leads to an unexpected but valid outcome, confirmed via player or reviewer notes.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Environment_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Environment_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#State"/>
+        <this:example>day/night, alert/calm, magical effect present/absent, rainy, bright, dark, impassable</this:example>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Exception -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Exception">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Atomic_Rule_Elements"/>
+        <this:example xml:lang="en">Critical hits do not affect constructs.</this:example>
+        <this:example xml:lang="en">Undead are immune to poison.</this:example>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#GT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#GT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Comparator"/>
+        <rdfs:label>Roll Over</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#LT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#LT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Comparator"/>
+        <rdfs:label>Roll Under</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Mechanic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Mechanic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Ruleset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#MechanicalVariable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#MechanicalVariable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Atomic_Rule_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Modifier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Modifier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Atomic_Rule_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Modifier_Overlap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Modifier_Overlap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#RuleDepth"/>
+        <this:description xml:lang="en">The final outcome of a roll or event is affected by modifiers or results from at least two different rules or subsystems.</this:description>
+        <rdfs:isDefinedBy xml:lang="en">Recording when two or more effects (modifiers, bonuses, penalties) are simultaneously applied from different rule sources.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Object_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Object_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#State"/>
+        <this:example xml:lang="en">locked, open, trapped, activated, broken</this:example>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Outcome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Outcome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Atomic_Rule_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Procedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Procedure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Atomic_Rule_Elements"/>
+        <this:example xml:lang="en">Characters regenerate 1 HP per hour of rest</this:example>
+        <this:example xml:lang="en">Make a Perception check to notice hidden traps</this:example>
+        <this:example xml:lang="en">Roll d20 and add your Dexterity modifier to determine initiative.</this:example>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Roll -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Roll"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Ruleset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#RuleDensity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#RuleDensity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Ruleset"/>
+        <rdfs:isDefinedBy>RuleDensity and (hasParts each {RuleWeight, RuleDepth, Crunch})</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#RuleOID -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#RuleOID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#RuleSource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#RuleSource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Ruleset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#RuleSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#RuleSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Ruleset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rule_Chaining -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rule_Chaining">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#RuleDepth"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rule_Complexity"/>
+        <this:description xml:lang="en">The output/result of Rule A directly serves as the input or parameter for Rule B (e.g. failing a save triggers a new spell effect).</this:description>
+        <rdfs:isDefinedBy xml:lang="en">Tracing an effect chain across more than one rule in play log.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rule_Complexity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rule_Complexity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#DensityMetric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rules_Heavy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rules_Heavy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rule_Complexity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rules_Light -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rules_Light">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rule_Complexity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rules_Medium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rules_Medium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rule_Complexity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Ruleset -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Ruleset"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Simultaneous_Resolution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Simultaneous_Resolution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#RuleDepth"/>
+        <this:description xml:lang="en">Multiple rules are resolved in tandem rather than isolation, each contributing to or influencing the overall outcome (e.g., “attack roll” uses both base combat and environmental rules).</this:description>
+        <rdfs:isDefinedBy xml:lang="en">Number of rules invoked at the point of player/GM action resolution.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Modifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Atomic_Rule_Elements"/>
+        <rpg-characteristics:AKA xml:lang="en">Condition</rpg-characteristics:AKA>
+        <this:example xml:lang="en">Encumbered: A state defined by the Encumbrance subsystem -- resulting from a procedure that tallies equipment carried and compares it to strength or a threshhold.</this:example>
+        <this:example>unconscious</this:example>
+        <rdfs:comment xml:lang="en">A state is a distinct set of properties or values that describe the instantaneous situation of a game entity, player character, object, or the game world itself. It usually includes attributes (e.g., health, mana, level), conditions (e.g., poisoned, stunned), resources (e.g., items, gold), and flags for narrative or mechanical events (e.g., quest completed, alarm raised).</rdfs:comment>
+        <rdfs:comment xml:lang="en">The current condition, status, or situation of a character, object, or game environment that influences available actions and outcomes.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Atomic_Rule_Elements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#TacticalSequence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#TacticalSequence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Atomic_Rule_Elements"/>
+        <this:description xml:lang="en">A granular accounting of time and action and where specific rules often apply.</this:description>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Target -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Target">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Roll"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#d20_Roll -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#d20_Roll"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Combat_System -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Combat_System">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#System"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Magic_System -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Magic_System">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#System"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Strength -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Strength">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Ability"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Modifier"/>
+        <this:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">+2</this:value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#d20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#d20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Dice"/>
+        <this:sides rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</this:sides>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Modifier">
+        <this:example xml:lang="en">Apply a -2 penalty to attacks while blinded.</this:example>
+        <this:example xml:lang="en">If enemy is within close range, gain +3 to damage.</this:example>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#System">
+        <this:example xml:lang="en">Combat: Rules for tactical sequences, actions, attacking, defending, rolling initiative, determining outcomes.</this:example>
+        <this:example xml:lang="en">Encumbrance: Track carried weight, apply penalties if over threshold.</this:example>
+        <this:example xml:lang="en">Skill Resolution: Unified method for checking skills, using attributes and modifiers.</this:example>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#Crunch"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#RuleDepth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#RuleWeight"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#GTE"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/droid/ontologies/2025/8/rpg-characteristics#LTE"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#GT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#LT"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Conditional"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Duration_Timing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Exception"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#MechanicalVariable"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Modifier"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Procedure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#System"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rules_Heavy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rules_Light"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/9/ttrpg-ruleset#Rules_Medium"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

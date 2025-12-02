@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills/"
+     xml:base="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Category -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Category">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#ttrpg-skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Rank"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Maximum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Maximum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Maximum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Rank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Prerequisite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Prerequisite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#ttrpg-skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Proficiency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Proficiency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#ttrpg-skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Rank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Rank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#ttrpg-skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Skill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Skill">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#ttrpg-skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Skill_Group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Skill_Group">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#ttrpg-skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Training -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Training">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#ttrpg-skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Training_Required -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Training_Required">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Training"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Untrained"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Untrained -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Untrained">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Training"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#ttrpg-skills -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#ttrpg-skills"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Category"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Prerequisite"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Proficiency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Rank"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Skill"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Skill_Group"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gian/ontologies/2025/10/ttrpg-skills#Training"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

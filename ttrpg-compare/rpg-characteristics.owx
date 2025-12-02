@@ -95,6 +95,9 @@
         <Class IRI="#Cooperator"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Core_Rules"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cortex"/>
     </Declaration>
     <Declaration>
@@ -527,6 +530,9 @@
         <Class IRI="#RuleWeight"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Rule_Source"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Rules-oriented_Talk"/>
     </Declaration>
     <Declaration>
@@ -557,6 +563,9 @@
         <Class IRI="#Scalar"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Scenario"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Sequential"/>
     </Declaration>
     <Declaration>
@@ -579,6 +588,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Solitary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Source_Book"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SpecialAction"/>
@@ -1415,6 +1427,10 @@
         <Class IRI="#PlayerRole"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Core_Rules"/>
+        <Class IRI="#Rule_Source"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Cortex"/>
         <Class IRI="#System"/>
     </SubClassOf>
@@ -2006,6 +2022,10 @@
         <Class IRI="#DensityMetric"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Rule_Source"/>
+        <Class IRI="#Ruleset"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Rules-oriented_Talk"/>
         <Class IRI="#GroupDynamic"/>
     </SubClassOf>
@@ -2042,6 +2062,10 @@
         <Class IRI="#ResourceValue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Scenario"/>
+        <Class IRI="#Rule_Source"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Sequential"/>
         <Class IRI="#Time"/>
     </SubClassOf>
@@ -2072,6 +2096,10 @@
     <SubClassOf>
         <Class IRI="#Solitary"/>
         <Class IRI="#PlayerRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Source_Book"/>
+        <Class IRI="#Rule_Source"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SpecialAction"/>
@@ -2672,6 +2700,11 @@
         <Class IRI="#Divide"/>
         <Class IRI="#Multiply"/>
         <Class IRI="#Subtract"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Core_Rules"/>
+        <Class IRI="#Scenario"/>
+        <Class IRI="#Source_Book"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#CriticalFailure"/>
